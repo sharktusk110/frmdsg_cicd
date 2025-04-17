@@ -1,0 +1,11 @@
+﻿def Compose_Mail():
+    #Clicks the 'panelCompose' control.
+    Aliases.browser.pageInbox5Zenithzehra67GmailComG.panelCompose.Click()
+    #Sets the text 'sharikh07@gmail.com' in the 'textboxToRecipients' text editor.
+    Aliases.browser.pageInbox5Zenithzehra67GmailComG.formTo.textboxToRecipients.SetText("sharikh07@gmail.com")
+    #Sets the text 'TestMail' in the 'textboxSubject' text editor.
+    Aliases.browser.pageInbox5Zenithzehra67GmailComG.formTo.textboxSubject.SetText("TestMail")
+    #Enters 'Hi[Enter][Enter]This is for the testing' in the 'panelMessageBody' object.
+    Aliases.browser.pageInbox5Zenithzehra67GmailComG.panelMessageBody.Keys("Hi[Enter][Enter]This is for the testing")
+    #Clicks the 'panelSendCtrlEnter' control.
+    Aliases.browser.pageInbox5Zenithzehra67GmailComG.panelSendCtrlEnter.Click()

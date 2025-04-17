@@ -1,0 +1,16 @@
+﻿def DTT():
+    #Opens the specified URL in a running instance of the specified browser.
+    Browsers.Item[btChrome].Navigate("https://mail.rediff.com/cgi-bin/login.cgi")
+    #Maximizes the specified Window object.
+    Aliases.browser.BrowserWindow.Maximize()
+    #Clicks the 'textboxLogin1' control.
+    Aliases.browser.pageRediffmailFreeEmailForLoginW.formLoginform.textboxLogin1.Click()
+    Project.Variables.data_set.Reset()
+    while not Project.Variables.data_set.IsEOF():
+        #Sets the text KeywordTests.DTT.Variables.data_set["Username"] in the 'textboxLogin1' text editor.
+        Aliases.browser.pageRediffmailFreeEmailForLoginW.formLoginform.textboxLogin1.SetText(Project.Variables.data_set.Value["Username"])
+        #Sets the text KeywordTests.DTT.Variables.data_set["Password"] in the 'passwordboxPassword' text editor.
+        Aliases.browser.pageRediffmailFreeEmailForLoginW.formLoginform.passwordboxPassword.SetText(Project.Variables.data_set.Value["Password"])
+        Project.Variables.data_set.Next()
+    #Clicks the 'passwordboxPassword' control.
+    Aliases.browser.pageRediffmailFreeEmailForLoginW.formLoginform.passwordboxPassword.Click()

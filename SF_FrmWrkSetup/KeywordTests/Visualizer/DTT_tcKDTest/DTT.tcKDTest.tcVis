@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{B2B196BC-5C33-433A-8EA0-DCA7B2ECF8CC}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45752.5527083333" objectName="Aliases.browser.pageRediffmailFreeEmailForLoginW.formLoginform.textboxLogin1" objectLeft="1190" objectTop="447" objectRight="1534" objectBottom="507" clickPointX="1295" clickPointY="476" imageFileName="tcvi117776437246160.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45752.5527314815" objectName="Aliases.browser.pageRediffmailFreeEmailForLoginW.formLoginform.textboxLogin1" objectLeft="1190" objectTop="447" objectRight="1534" objectBottom="507" clickPointX="-1" clickPointY="-1" imageFileName="tcvi117777921246161.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="45752.5527777778" objectName="Aliases.browser.pageRediffmailFreeEmailForLoginW.formLoginform.passwordboxPassword" objectLeft="1190" objectTop="577" objectRight="1729" objectBottom="637" clickPointX="-1" clickPointY="-1" imageFileName="tcvi117782531246163.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="45752.5527662037" objectName="Aliases.browser.pageRediffmailFreeEmailForLoginW.formLoginform.passwordboxPassword" objectLeft="1190" objectTop="577" objectRight="1729" objectBottom="637" clickPointX="1301" clickPointY="604" imageFileName="tcvi117781406246162.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<folder name="Pages">
+			<folder name="Login">
+				<child name="Login" key="{E7F802BE-80A3-4881-94C5-37793CB087AB}" path="Login.tcKDTest" />
+				<child name="Logout" key="{7CBD0274-7D4B-484C-A5FD-9FCD537D986A}" path="Logout.tcKDTest" />
+			</folder>
+		</folder>
+		<folder name="Tests">
+			<folder name="Login_Tests">
+				<child name="LoginTest" key="{76DBB71C-6FB4-435D-A6CD-AFEFFEA01A67}" path="LoginTest.tcKDTest" />
+				<child name="Logout_Test" key="{6A3F69A3-2D53-444A-8066-79221407C2A3}" path="Logout_Test.tcKDTest" />
+			</folder>
+		</folder>
+		<folder name="Common Components">
+			<folder name="ReadExcel" />
+		</folder>
+		<folder name="UtilitiesBrowser">
+			<child name="Start_Browser" key="{CBD97388-A362-44D5-9DC6-FB66DA93266A}" path="Start_Browser.tcKDTest" />
+			<child name="NavigatetoURL" key="{A31EEAD2-4CCF-426F-946B-12D329F95101}" path="NavigatetoURL.tcKDTest" />
+			<child name="Stop_Browser" key="{4628E25F-CE72-42C7-8AC1-6F0061FF2025}" path="Stop_Browser.tcKDTest" />
+		</folder>
+	</children>
+</Root>

@@ -1,0 +1,10 @@
+﻿def Test_Chrome_Headless():
+  server = "localhost"
+  capabilities = {
+    "browserName": "chrome",
+    "screenResolution": "1920x1080"
+  }
+
+  url = "https://www.gmail.com"
+  Browsers.RemoteItem[server, capabilities].Run(url)
+  Log.Message("Browser has been launched")

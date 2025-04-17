@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{99077254-A257-4EAA-98F3-CDFD935A933A}">
+	<children>
+		<child name="WebOrders" key="{E022CB57-7B79-447D-9AC6-EAFD45A5849D}" path="TestProject1\WebOrders.mds" />
+		<child name="SF_FrmWrkSetup" key="{47A40A3E-284A-4252-A8A1-DF702D8FCED6}" path="SF_FrmWrkSetup\SF_FrmWrkSetup.mds" />
+	</children>
+	<testItems key="{06BF9A30-7B95-47C2-9B09-B6261620DD28}">
+		<children>
+			<testItem key="{E022CB57-7B79-447D-9AC6-EAFD45A5849D}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{47A40A3E-284A-4252-A8A1-DF702D8FCED6}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{37C3751F-2782-4B6C-8718-3C19F068AA12}" />
+	<analysis key="{8904259D-445C-45DD-BA8D-F23560532E7E}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="Pages">
+			<folder name="ComposeActions">
+				<child name="ComposeMail" key="{78C037CF-8AA7-472A-AB88-FB0CA0864DFC}" path="ComposeMail.py" />
+			</folder>
+		</folder>
+		<folder name="Test">
+			<folder name="ComposeActionsTests">
+				<child name="ComposeMailTest" key="{6EB63100-1F5F-4070-B2AF-A277FF41B3A6}" path="ComposeMailTest.py" />
+			</folder>
+		</folder>
+		<folder name="CommonUtility">
+			<folder name="ReadExcel">
+				<child name="ReadExcel" key="{8B951F44-38ED-4061-8451-2C7C763F5EDE}" path="ReadExcel.py" />
+			</folder>
+			<folder name="Reporting">
+				<child name="Report_Formatting" key="{F0BFC4B5-6097-43C1-A065-574415EF8531}" path="Report_Formatting.py" />
+			</folder>
+		</folder>
+		<folder name="Utilities Browser">
+			<child name="HeadlessBrowserInitiation" key="{77F80BFF-B4FA-42BC-8E77-ED1AE78B62D6}" path="HeadlessBrowserInitiation.py" />
+		</folder>
+	</children>
+</Root>

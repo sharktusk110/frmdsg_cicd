@@ -1,0 +1,16 @@
+﻿def Reporting():
+    extentReports = JavaClasses.com.relevantcodes.extentreports.ExtentReports
+    logStatus = JavaClasses.com.relevantcodes.extentreports.LogStatus
+
+    path = ".\\Generated ExtentReport\\report.html"
+
+    extent = extentReports.newInstance(path)
+
+    test = extent.startTest("Sample Test Report", "Sample description")
+
+    test.log(logStatus.INFO, "This step shows usage of log INFO")
+    test.log(logStatus.PASS, "This step shows usage of log PASS")
+    test.log(logStatus.FAIL, "This step shows usage of log FAIL")
+
+    extent.endTest(test)
+    extent.flush()

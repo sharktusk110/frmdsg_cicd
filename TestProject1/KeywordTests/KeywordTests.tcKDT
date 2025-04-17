@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<folder name="UtilsBrowser">
+			<child name="StartEdge" key="{96981429-38EF-44A7-A69A-6B4184288726}" path="StartEdge.tcKDTest" />
+			<child name="StopEdge" key="{7F6C7915-9CD7-4546-831E-66806C8129F8}" path="StopEdge.tcKDTest" />
+			<child name="NavEdge" key="{31BDE616-86AE-42CC-AFF0-FADDC46222FA}" path="NavEdge.tcKDTest" />
+			<child name="StartChrome" key="{179691D8-E49A-48A3-986D-F6651DC3D207}" path="StartChrome.tcKDTest" />
+			<child name="StopChrome" key="{0884648A-361B-4207-AB53-424102EA808B}" path="StopChrome.tcKDTest" />
+		</folder>
+		<folder name="Pages">
+			<folder name="HomePage">
+				<child name="HomePageGoTo" key="{B4380A73-14AE-4708-B07B-50E778387BF3}" path="HomePageGoTo.tcKDTest" />
+				<child name="HomePageLogIn" key="{EA619C91-FDEB-4223-944D-B0ACB9AB6731}" path="HomePageLogIn.tcKDTest" />
+				<child name="HomePageLogOut" key="{0C4B2BF1-9AEC-4E19-B7B6-6A33653CC71A}" path="HomePageLogOut.tcKDTest" />
+			</folder>
+			<folder name="ViewAllOrdersPage">
+				<child name="ViewAllOrdersNavTo" key="{EDCE983C-59C4-4469-8193-645863CB64FF}" path="ViewAllOrdersNavTo.tcKDTest" />
+			</folder>
+			<folder name="ViewAllProductsPage" />
+			<folder name="OrderPage">
+				<child name="OrderNavTo" key="{724F4AE0-DF39-4DCC-8177-B1CBC3DEA6B4}" path="OrderNavTo.tcKDTest" />
+				<child name="OrderEnterProdInfo" key="{CF9B6711-2132-4758-9466-94D9EF5CC4ED}" path="OrderEnterProdInfo.tcKDTest" />
+				<child name="OrderEnterPaymentInfo" key="{5129B1E4-0E39-4643-9204-9AB1C29053B0}" path="OrderEnterPaymentInfo.tcKDTest" />
+				<child name="OrderEnterAddrInfo" key="{55385A33-0C4C-4D39-91E7-5D6992C213C9}" path="OrderEnterAddrInfo.tcKDTest" />
+				<child name="OrderProcess" key="{68DFE951-3FF5-4C22-BBFE-B18DC6315FDE}" path="OrderProcess.tcKDTest" />
+			</folder>
+			<folder name="BasePage">
+				<child name="Logout" key="{1B7F0B1C-78E9-4105-A864-9CCE8FDDEA3E}" path="Logout.tcKDTest" />
+				<child name="RefreshPage" key="{E4A986A7-62EA-4252-9EC7-0E09E15BCC1F}" path="RefreshPage.tcKDTest" />
+			</folder>
+			<folder name="LoginPage">
+				<child name="Login" key="{B933D9C8-2926-4A87-BC3C-82DB26A2B122}" path="Login.tcKDTest" />
+			</folder>
+		</folder>
+		<folder name="CommonComponents">
+			<child name="MainMenuNav" key="{3AC4A232-8250-430F-8DDD-B9C4762AA003}" path="MainMenuNav.tcKDTest" />
+			<child name="Notifications" key="{20045CB6-7511-448E-9813-19B6C12B09E1}" path="Notifications.tcKDTest" />
+			<child name="Overlay" key="{15488174-B4E4-4392-83AA-D0F75862D335}" path="Overlay.tcKDTest" />
+			<child name="StatusBar" key="{38A62C93-9DFB-4164-B06B-D32C806527A7}" path="StatusBar.tcKDTest" />
+			<child name="DropDownCheckBox" key="{D1AD2994-DC87-471A-BF45-48056CF0554D}" path="DropDownCheckBox.tcKDTest" />
+		</folder>
+		<folder name="Tests">
+			<folder name="FeatureOrdering">
+				<child name="OrdersValid" key="{911A309B-C83A-42FA-BB88-B486AD0E37A5}" path="OrdersValid.tcKDTest" />
+				<child name="OrdersInvalid" key="{B3226517-5782-42C3-A14F-B755FD102734}" path="OrdersInvalid.tcKDTest" />
+			</folder>
+			<folder name="FeatureMenuNavigatgion">
+				<child name="MainMenuNavTests" key="{58FFECDE-7C95-4620-A653-64A8D0826A31}" path="MainMenuNavTests.tcKDTest" />
+			</folder>
+			<folder name="FeatureViewOrders">
+				<child name="MillionItemsTest" key="{5DBB371F-14C3-490A-98FA-2EC07F0F0331}" path="MillionItemsTest.tcKDTest" />
+			</folder>
+		</folder>
+		<folder name="UtilsWebOrders" />
+		<child name="Test1" key="{E129B156-F11F-4DFE-9066-C469A5B1B458}" path="Test1.tcKDTest" />
+	</children>
+</Root>
