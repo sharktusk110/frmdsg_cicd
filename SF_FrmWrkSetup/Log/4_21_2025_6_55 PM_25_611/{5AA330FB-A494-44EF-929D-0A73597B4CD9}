@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="stack"/>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage5_Dif.png"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+				</Node>
+				<Node name="original">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="716"/>
+					<Prp name="object right" type="I" value="1196"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="tcvi942806873730035.png"/>
+					<Prp name="object left" type="I" value="724"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="774"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pagePassive.formForm53.passwordboxPassword"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="datetime" type="D" value="45768.5341666667"/>
+					<Prp name="version" type="I" value="2"/>
+				</Node>
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="696"/>
+					<Prp name="object right" type="I" value="1196"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="object left" type="I" value="724"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="754"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pagePassive.formForm53.passwordboxPassword"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="datetime" type="D" value="45768.5594872338"/>
+					<Prp name="version" type="I" value="2"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="45768.7886622685"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'Te$tU$er16' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pagePassive.formForm53.passwordboxPassword&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat.okta.com/app/office365/exk1rqhftLyRPOLa2356/sso/wsfed/passive?client-request-id=5e1ca989-a4e5-4bdb-88e3-c63f66d53d7e&amp;wa=wsignin1.0&amp;wtrealm=urn%3afederation%3aMicrosoftOnline&amp;wctx=LoginOptions%3D3%26estsredirect%3d2%26estsrequest%3drQQIARAAlVNNjNtEFI432WXbQrtw6gGkHloOqEkc_2W80gomsZN1fpzEsZPYB1aOf7KOYzuxJ87GB4SEkBZx6bniVLhQcUCcEKeeOPTUCwLRSylCQhVCiFNv4GTbO7x5em80831v5s289062VCgd3sS3UqLzG3dhjJezlxK-cfngky_ffP-3Lx43z3_9_l37h6MP7mO3TxGaR4fF4kIvFSLdN8fBWSGYW6GOnMCPCuba1z3HiApG4BW_xbBHGPY7ht3fiRgSAByQDFWmWKYMSJYuqJ6adDjNU70eag95WuvjuJi0ydZQINtJD6mEkGieQGtDZSXKPNmRG45ISK5K8EiUZ24nxbeJ3qoluyleQdq0NtWmDU_j3LXo9ZKfd6514BKdEhsThE5i_b1zyQ5C72QeROhu9uNcZ275glkNfN8yUGEDs3zkGNtcuuEmLeRY0RHsQQjFats3QaVm8tL0OIAr_qQ6y0eVdAcKQrC0OLYNcIdnqn2SS4e-4UBYhRfS0yYbx79Y4RwppmLUH8fdue8zTKXKuFw_Xx-UV5SjdXGW6qiMzs7O2sqWBzsXTnjBr1BMI1AkecWZVo8AQGeJCZv3Yy4ehWgizxtwGjarNQGIsrfFm6hNAx_UmDY7gFVaV_r-uncipSm7OiLKNSVxj1t9wNQAPw3EhbSYRjQv0RZYKy0DMtAPumJtOVGrpOV6U6ejxZZcB_ZswYtdneIEz22G_REdHLM9zoibSaMbqxLLzPvMONahP9_evoJXyG550CyXulLiz8xWUx4JUOsMPFrCxabaaHLcYLQYI33Y0oiSYrm0SevNeImctV2rk8AeEFUznqiqAsxJEgxCMF303pYs0wnTD5SDo2113iLhLaKW6n-o0RT1TfamUcbHJkkaeYpl9TzFjMt5XWfN_Bi37TJdwm2DJR9mr6YxfMe8MQ8D25lZT7PXjdBDVoQK1Ht66EQoMNIjNlEf5D78fPdRDnuWexXPHu7vXz7IXM_cyDzPYfd207Z669Pu0yv7V_ivfvzl3vyjnczD3SJgRx4Y0bZ46ruwUlxVnJY6YAf1iR4HxPBs6SRF2ZVVu1I3jojD0p097M7e3l972Pkrme8u_a-mfPBa5vnVz346_-Ofu0_-PH527faZrkxjSXQEJvRoSAGaUdK3b1D4oEOU4PFMrZiniuvxQ40_-vog8yTV1zP_Ag2&amp;cbcxt=&amp;username=crmtest.4%40aristocrat.com&amp;mkt=&amp;lc=&quot;).FindElement(&quot;//input[@id=(//label[contains(.,'Password')]/@for)]&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage1_Dif.png"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+				</Node>
+				<Node name="original">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="395"/>
+					<Prp name="object right" type="I" value="1224"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="661"/>
+					<Prp name="image file name" type="S" value="tcvi96416781373001.png"/>
+					<Prp name="object left" type="I" value="696"/>
+					<Prp name="click point x" type="I" value="1003"/>
+					<Prp name="object bottom" type="I" value="821"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageSignInToYourAccount.formF1.panelSignIn2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45768.5588888889"/>
+					<Prp name="version" type="I" value="2"/>
+				</Node>
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="395"/>
+					<Prp name="object right" type="I" value="1224"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="608"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="object left" type="I" value="696"/>
+					<Prp name="click point x" type="I" value="960"/>
+					<Prp name="object bottom" type="I" value="821"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageSignInToYourAccount.formF1.panelSignIn2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45768.5593902199"/>
+					<Prp name="version" type="I" value="2"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="45768.788558206"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (176, 142) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageSignInToYourAccount.formF1.panelSignIn2&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://login.microsoftonline.com/c70bd33c-499a-46b7-aa9d-b0ff7510fc93/oauth2/authorize?client_id=00000015-0000-0000-c000-000000000000&amp;response_mode=form_post&amp;response_type=code+id_token&amp;scope=openid+profile&amp;state=OpenIdConnect.AuthenticationProperties%3dAQAAANCMnd8BFdERjHoAwE_Cl-sBAAAAIIoueD9M80iE6CS3D3D3aQAAAAACAAAAAAAQZgAAAAEAACAAAADiRv4vtSbvPpnn66BC6kDS-GV7w4iZP094OY6a9lxMUgAAAAAOgAAAAAIAACAAAAB46JoURTwDdeQ288a92g9-nvDvXrtgTpJAjrKCFI8NTmAAAABdtM58n8F6M9VAC5aUSnyQ_RAutkat27FUzkHLS86F8EjoNqRqjs5ER5e8yULcA6AnoPNFugYC3ekmjiOZveTG8flqENPa4DImkKrSX5oH9QDcvKzJPvYR96pS6bvaAnpAAAAAB0B3P7VK71PRznldLKTXIAZOVm5R0NKYJKDDVXqbtaWLZ21Uek5d5aKvutiyfFG38fV2CdvgYYU8dgzoVr8jqQ%26RedirectTo%3dhttps%253A%252F%252Fqa1.sandbox.operations.dynamics.com%252F&amp;nonce=638808364749678395.YmYzODZmYmQtMWE5ZS00NzM3LWI3MzQtY2IzZmI5ZWUwNTE3OTJiN2RkY2EtNTlkOS00M2QwLTk3MzUtZjFjZjJmZDkyNmQz&amp;redirect_uri=https%3a%2f%2fqa1.sandbox.operations.dynamics.com%2f&amp;max_age=86400&quot;).FindElement(&quot;(//div)[20]&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 0">
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="45768.7885332407"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Navigating to the https://login.microsoftonline.com/c70bd33c-499a-46b7-aa9d-b0... page."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="URL: https://login.microsoftonline.com/c70bd33c-499a-46b7-aa9d-b0ff7510fc93/oauth2/authorize?client_id=00000015-0000-0000-c000-000000000000&amp;response_mode=form_post&amp;response_type=code+id_token&amp;scope=openid+profile&amp;state=OpenIdConnect.AuthenticationProperties%3dAQAAANCMnd8BFdERjHoAwE_Cl-sBAAAAIIoueD9M80iE6CS3D3D3aQAAAAACAAAAAAAQZgAAAAEAACAAAADiRv4vtSbvPpnn66BC6kDS-GV7w4iZP094OY6a9lxMUgAAAAAOgAAAAAIAACAAAAB46JoURTwDdeQ288a92g9-nvDvXrtgTpJAjrKCFI8NTmAAAABdtM58n8F6M9VAC5aUSnyQ_RAutkat27FUzkHLS86F8EjoNqRqjs5ER5e8yULcA6AnoPNFugYC3ekmjiOZveTG8flqENPa4DImkKrSX5oH9QDcvKzJPvYR96pS6bvaAnpAAAAAB0B3P7VK71PRznldLKTXIAZOVm5R0NKYJKDDVXqbtaWLZ21Uek5d5aKvutiyfFG38fV2CdvgYYU8dgzoVr8jqQ%26RedirectTo%3dhttps%253A%252F%252Fqa1.sandbox.operations.dynamics.com%252F&amp;nonce=638808364749678395.YmYzODZmYmQtMWE5ZS00NzM3LWI3MzQtY2IzZmI5ZWUwNTE3OTJiN2RkY2EtNTlkOS00M2QwLTk3MzUtZjFjZjJmZDkyNmQz&amp;redirect_uri=https%3a%2f%2fqa1.sandbox.operations.dynamics.com%2f&amp;max_age=86400&#xA;&#xA;Aliases.browser"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{218F5EE9-772E-4DA9-88AA-FA2C3DDE7864}"/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage0_Dif.png"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+				</Node>
+				<Node name="original">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="455"/>
+					<Prp name="object right" type="I" value="1221"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="tcvi942536403730028.png"/>
+					<Prp name="object left" type="I" value="699"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="509"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageSignInToYourAccount.formF1.emailinputFirstnameLastnameArist"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="datetime" type="D" value="45768.5338541667"/>
+					<Prp name="version" type="I" value="2"/>
+				</Node>
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="455"/>
+					<Prp name="object right" type="I" value="1221"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="object left" type="I" value="699"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="509"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageSignInToYourAccount.formF1.emailinputFirstnameLastnameArist"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="datetime" type="D" value="45768.5593698611"/>
+					<Prp name="version" type="I" value="2"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="45768.7885528125"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'CRMTest.4@aristocrat.com' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageSignInToYourAccount.formF1.emailinputFirstnameLastnameArist&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://login.microsoftonline.com/c70bd33c-499a-46b7-aa9d-b0ff7510fc93/oauth2/authorize?client_id=00000015-0000-0000-c000-000000000000&amp;response_mode=form_post&amp;response_type=code+id_token&amp;scope=openid+profile&amp;state=OpenIdConnect.AuthenticationProperties%3dAQAAANCMnd8BFdERjHoAwE_Cl-sBAAAAIIoueD9M80iE6CS3D3D3aQAAAAACAAAAAAAQZgAAAAEAACAAAADiRv4vtSbvPpnn66BC6kDS-GV7w4iZP094OY6a9lxMUgAAAAAOgAAAAAIAACAAAAB46JoURTwDdeQ288a92g9-nvDvXrtgTpJAjrKCFI8NTmAAAABdtM58n8F6M9VAC5aUSnyQ_RAutkat27FUzkHLS86F8EjoNqRqjs5ER5e8yULcA6AnoPNFugYC3ekmjiOZveTG8flqENPa4DImkKrSX5oH9QDcvKzJPvYR96pS6bvaAnpAAAAAB0B3P7VK71PRznldLKTXIAZOVm5R0NKYJKDDVXqbtaWLZ21Uek5d5aKvutiyfFG38fV2CdvgYYU8dgzoVr8jqQ%26RedirectTo%3dhttps%253A%252F%252Fqa1.sandbox.operations.dynamics.com%252F&amp;nonce=638808364749678395.YmYzODZmYmQtMWE5ZS00NzM3LWI3MzQtY2IzZmI5ZWUwNTE3OTJiN2RkY2EtNTlkOS00M2QwLTk3MzUtZjFjZjJmZDkyNmQz&amp;redirect_uri=https%3a%2f%2fqa1.sandbox.operations.dynamics.com%2f&amp;max_age=86400&quot;).FindElement(&quot;//input[@name='loginfmt']&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage2_Dif.png"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+				</Node>
+				<Node name="original">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="587"/>
+					<Prp name="object right" type="I" value="1224"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="612"/>
+					<Prp name="image file name" type="S" value="tcvi942564683730029.png"/>
+					<Prp name="object left" type="I" value="1062"/>
+					<Prp name="click point x" type="I" value="1130"/>
+					<Prp name="object bottom" type="I" value="635"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageSignInToYourAccount.formF1.submitbuttonNext"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="datetime" type="D" value="45768.5338773148"/>
+					<Prp name="version" type="I" value="2"/>
+				</Node>
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="587"/>
+					<Prp name="object right" type="I" value="1224"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="611"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="object left" type="I" value="1062"/>
+					<Prp name="click point x" type="I" value="1143"/>
+					<Prp name="object bottom" type="I" value="635"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageSignInToYourAccount.formF1.submitbuttonNext"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="datetime" type="D" value="45768.5593945602"/>
+					<Prp name="version" type="I" value="2"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="45768.7885625347"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (54, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageSignInToYourAccount.formF1.submitbuttonNext&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://login.microsoftonline.com/c70bd33c-499a-46b7-aa9d-b0ff7510fc93/oauth2/authorize?client_id=00000015-0000-0000-c000-000000000000&amp;response_mode=form_post&amp;response_type=code+id_token&amp;scope=openid+profile&amp;state=OpenIdConnect.AuthenticationProperties%3dAQAAANCMnd8BFdERjHoAwE_Cl-sBAAAAIIoueD9M80iE6CS3D3D3aQAAAAACAAAAAAAQZgAAAAEAACAAAADiRv4vtSbvPpnn66BC6kDS-GV7w4iZP094OY6a9lxMUgAAAAAOgAAAAAIAACAAAAB46JoURTwDdeQ288a92g9-nvDvXrtgTpJAjrKCFI8NTmAAAABdtM58n8F6M9VAC5aUSnyQ_RAutkat27FUzkHLS86F8EjoNqRqjs5ER5e8yULcA6AnoPNFugYC3ekmjiOZveTG8flqENPa4DImkKrSX5oH9QDcvKzJPvYR96pS6bvaAnpAAAAAB0B3P7VK71PRznldLKTXIAZOVm5R0NKYJKDDVXqbtaWLZ21Uek5d5aKvutiyfFG38fV2CdvgYYU8dgzoVr8jqQ%26RedirectTo%3dhttps%253A%252F%252Fqa1.sandbox.operations.dynamics.com%252F&amp;nonce=638808364749678395.YmYzODZmYmQtMWE5ZS00NzM3LWI3MzQtY2IzZmI5ZWUwNTE3OTJiN2RkY2EtNTlkOS00M2QwLTk3MzUtZjFjZjJmZDkyNmQz&amp;redirect_uri=https%3a%2f%2fqa1.sandbox.operations.dynamics.com%2f&amp;max_age=86400&quot;).FindElement(&quot;#idSIButton9&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage4_Dif.png"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+				</Node>
+				<Node name="original">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="231"/>
+					<Prp name="object right" type="I" value="1914"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="624"/>
+					<Prp name="image file name" type="S" value="tcvi942787183730033.png"/>
+					<Prp name="object left" type="I" value="6"/>
+					<Prp name="click point x" type="I" value="1829"/>
+					<Prp name="object bottom" type="I" value="1043"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pagePassive.panelSigninContainer"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="datetime" type="D" value="45768.5341319444"/>
+					<Prp name="version" type="I" value="2"/>
+				</Node>
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="231"/>
+					<Prp name="object right" type="I" value="1914"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="589"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="object left" type="I" value="6"/>
+					<Prp name="click point x" type="I" value="960"/>
+					<Prp name="object bottom" type="I" value="947"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pagePassive.panelSigninContainer"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="datetime" type="D" value="45768.5594552315"/>
+					<Prp name="version" type="I" value="2"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="45768.7886231481"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (636, 239) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pagePassive.panelSigninContainer&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat.okta.com/app/office365/exk1rqhftLyRPOLa2356/sso/wsfed/passive?client-request-id=5e1ca989-a4e5-4bdb-88e3-c63f66d53d7e&amp;wa=wsignin1.0&amp;wtrealm=urn%3afederation%3aMicrosoftOnline&amp;wctx=LoginOptions%3D3%26estsredirect%3d2%26estsrequest%3drQQIARAAlVNNjNtEFI432WXbQrtw6gGkHloOqEkc_2W80gomsZN1fpzEsZPYB1aOf7KOYzuxJ87GB4SEkBZx6bniVLhQcUCcEKeeOPTUCwLRSylCQhVCiFNv4GTbO7x5em80831v5s289062VCgd3sS3UqLzG3dhjJezlxK-cfngky_ffP-3Lx43z3_9_l37h6MP7mO3TxGaR4fF4kIvFSLdN8fBWSGYW6GOnMCPCuba1z3HiApG4BW_xbBHGPY7ht3fiRgSAByQDFWmWKYMSJYuqJ6adDjNU70eag95WuvjuJi0ydZQINtJD6mEkGieQGtDZSXKPNmRG45ISK5K8EiUZ24nxbeJ3qoluyleQdq0NtWmDU_j3LXo9ZKfd6514BKdEhsThE5i_b1zyQ5C72QeROhu9uNcZ275glkNfN8yUGEDs3zkGNtcuuEmLeRY0RHsQQjFats3QaVm8tL0OIAr_qQ6y0eVdAcKQrC0OLYNcIdnqn2SS4e-4UBYhRfS0yYbx79Y4RwppmLUH8fdue8zTKXKuFw_Xx-UV5SjdXGW6qiMzs7O2sqWBzsXTnjBr1BMI1AkecWZVo8AQGeJCZv3Yy4ehWgizxtwGjarNQGIsrfFm6hNAx_UmDY7gFVaV_r-uncipSm7OiLKNSVxj1t9wNQAPw3EhbSYRjQv0RZYKy0DMtAPumJtOVGrpOV6U6ejxZZcB_ZswYtdneIEz22G_REdHLM9zoibSaMbqxLLzPvMONahP9_evoJXyG550CyXulLiz8xWUx4JUOsMPFrCxabaaHLcYLQYI33Y0oiSYrm0SevNeImctV2rk8AeEFUznqiqAsxJEgxCMF303pYs0wnTD5SDo2113iLhLaKW6n-o0RT1TfamUcbHJkkaeYpl9TzFjMt5XWfN_Bi37TJdwm2DJR9mr6YxfMe8MQ8D25lZT7PXjdBDVoQK1Ht66EQoMNIjNlEf5D78fPdRDnuWexXPHu7vXz7IXM_cyDzPYfd207Z669Pu0yv7V_ivfvzl3vyjnczD3SJgRx4Y0bZ46ruwUlxVnJY6YAf1iR4HxPBs6SRF2ZVVu1I3jojD0p097M7e3l972Pkrme8u_a-mfPBa5vnVz346_-Ofu0_-PH527faZrkxjSXQEJvRoSAGaUdK3b1D4oEOU4PFMrZiniuvxQ40_-vog8yTV1zP_Ag2&amp;cbcxt=&amp;username=crmtest.4%40aristocrat.com&amp;mkt=&amp;lc=&quot;).FindElement(&quot;#signin-container&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage6_Dif.png"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+				</Node>
+				<Node name="original">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="817"/>
+					<Prp name="object right" type="I" value="1197"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="849"/>
+					<Prp name="image file name" type="S" value="tcvi942825463730036.png"/>
+					<Prp name="object left" type="I" value="723"/>
+					<Prp name="click point x" type="I" value="958"/>
+					<Prp name="object bottom" type="I" value="892"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pagePassive.formForm53.submitbuttonVerify"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="datetime" type="D" value="45768.5341782407"/>
+					<Prp name="version" type="I" value="2"/>
+				</Node>
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="817"/>
+					<Prp name="object right" type="I" value="1197"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="854"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="object left" type="I" value="723"/>
+					<Prp name="click point x" type="I" value="960"/>
+					<Prp name="object bottom" type="I" value="892"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pagePassive.formForm53.submitbuttonVerify"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="datetime" type="D" value="45768.5594987731"/>
+					<Prp name="version" type="I" value="2"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="45768.7886672222"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pagePassive.formForm53.submitbuttonVerify&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat.okta.com/app/office365/exk1rqhftLyRPOLa2356/sso/wsfed/passive?client-request-id=5e1ca989-a4e5-4bdb-88e3-c63f66d53d7e&amp;wa=wsignin1.0&amp;wtrealm=urn%3afederation%3aMicrosoftOnline&amp;wctx=LoginOptions%3D3%26estsredirect%3d2%26estsrequest%3drQQIARAAlVNNjNtEFI432WXbQrtw6gGkHloOqEkc_2W80gomsZN1fpzEsZPYB1aOf7KOYzuxJ87GB4SEkBZx6bniVLhQcUCcEKeeOPTUCwLRSylCQhVCiFNv4GTbO7x5em80831v5s289062VCgd3sS3UqLzG3dhjJezlxK-cfngky_ffP-3Lx43z3_9_l37h6MP7mO3TxGaR4fF4kIvFSLdN8fBWSGYW6GOnMCPCuba1z3HiApG4BW_xbBHGPY7ht3fiRgSAByQDFWmWKYMSJYuqJ6adDjNU70eag95WuvjuJi0ydZQINtJD6mEkGieQGtDZSXKPNmRG45ISK5K8EiUZ24nxbeJ3qoluyleQdq0NtWmDU_j3LXo9ZKfd6514BKdEhsThE5i_b1zyQ5C72QeROhu9uNcZ275glkNfN8yUGEDs3zkGNtcuuEmLeRY0RHsQQjFats3QaVm8tL0OIAr_qQ6y0eVdAcKQrC0OLYNcIdnqn2SS4e-4UBYhRfS0yYbx79Y4RwppmLUH8fdue8zTKXKuFw_Xx-UV5SjdXGW6qiMzs7O2sqWBzsXTnjBr1BMI1AkecWZVo8AQGeJCZv3Yy4ehWgizxtwGjarNQGIsrfFm6hNAx_UmDY7gFVaV_r-uncipSm7OiLKNSVxj1t9wNQAPw3EhbSYRjQv0RZYKy0DMtAPumJtOVGrpOV6U6ejxZZcB_ZswYtdneIEz22G_REdHLM9zoibSaMbqxLLzPvMONahP9_evoJXyG550CyXulLiz8xWUx4JUOsMPFrCxabaaHLcYLQYI33Y0oiSYrm0SevNeImctV2rk8AeEFUznqiqAsxJEgxCMF303pYs0wnTD5SDo2113iLhLaKW6n-o0RT1TfamUcbHJkkaeYpl9TzFjMt5XWfN_Bi37TJdwm2DJR9mr6YxfMe8MQ8D25lZT7PXjdBDVoQK1Ht66EQoMNIjNlEf5D78fPdRDnuWexXPHu7vXz7IXM_cyDzPYfd207Z669Pu0yv7V_ivfvzl3vyjnczD3SJgRx4Y0bZ46ruwUlxVnJY6YAf1iR4HxPBs6SRF2ZVVu1I3jojD0p097M7e3l972Pkrme8u_a-mfPBa5vnVz346_-Ofu0_-PH527faZrkxjSXQEJvRoSAGaUdK3b1D4oEOU4PFMrZiniuvxQ40_-vog8yTV1zP_Ag2&amp;cbcxt=&amp;username=crmtest.4%40aristocrat.com&amp;mkt=&amp;lc=&quot;).FindElement(&quot;//input[@value='Verify']&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage3_Dif.png"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+				</Node>
+				<Node name="original">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="720"/>
+					<Prp name="object right" type="I" value="1197"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="754"/>
+					<Prp name="image file name" type="S" value="tcvi942647033730032.png"/>
+					<Prp name="object left" type="I" value="723"/>
+					<Prp name="click point x" type="I" value="964"/>
+					<Prp name="object bottom" type="I" value="795"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pagePassive.formForm20.submitbuttonNext"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="datetime" type="D" value="45768.5339699074"/>
+					<Prp name="version" type="I" value="2"/>
+				</Node>
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object top" type="I" value="720"/>
+					<Prp name="object right" type="I" value="1197"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point y" type="I" value="757"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="object left" type="I" value="723"/>
+					<Prp name="click point x" type="I" value="960"/>
+					<Prp name="object bottom" type="I" value="795"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pagePassive.formForm20.submitbuttonNext"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="datetime" type="D" value="45768.559450081"/>
+					<Prp name="version" type="I" value="2"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="45768.7886186227"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pagePassive.formForm20.submitbuttonNext&#xA;(Sys.Browser(&quot;edge&quot;).Page(&quot;https://aristocrat.okta.com/app/office365/exk1rqhftLyRPOLa2356/sso/wsfed/passive?client-request-id=5e1ca989-a4e5-4bdb-88e3-c63f66d53d7e&amp;wa=wsignin1.0&amp;wtrealm=urn%3afederation%3aMicrosoftOnline&amp;wctx=LoginOptions%3D3%26estsredirect%3d2%26estsrequest%3drQQIARAAlVNNjNtEFI432WXbQrtw6gGkHloOqEkc_2W80gomsZN1fpzEsZPYB1aOf7KOYzuxJ87GB4SEkBZx6bniVLhQcUCcEKeeOPTUCwLRSylCQhVCiFNv4GTbO7x5em80831v5s289062VCgd3sS3UqLzG3dhjJezlxK-cfngky_ffP-3Lx43z3_9_l37h6MP7mO3TxGaR4fF4kIvFSLdN8fBWSGYW6GOnMCPCuba1z3HiApG4BW_xbBHGPY7ht3fiRgSAByQDFWmWKYMSJYuqJ6adDjNU70eag95WuvjuJi0ydZQINtJD6mEkGieQGtDZSXKPNmRG45ISK5K8EiUZ24nxbeJ3qoluyleQdq0NtWmDU_j3LXo9ZKfd6514BKdEhsThE5i_b1zyQ5C72QeROhu9uNcZ275glkNfN8yUGEDs3zkGNtcuuEmLeRY0RHsQQjFats3QaVm8tL0OIAr_qQ6y0eVdAcKQrC0OLYNcIdnqn2SS4e-4UBYhRfS0yYbx79Y4RwppmLUH8fdue8zTKXKuFw_Xx-UV5SjdXGW6qiMzs7O2sqWBzsXTnjBr1BMI1AkecWZVo8AQGeJCZv3Yy4ehWgizxtwGjarNQGIsrfFm6hNAx_UmDY7gFVaV_r-uncipSm7OiLKNSVxj1t9wNQAPw3EhbSYRjQv0RZYKy0DMtAPumJtOVGrpOV6U6ejxZZcB_ZswYtdneIEz22G_REdHLM9zoibSaMbqxLLzPvMONahP9_evoJXyG550CyXulLiz8xWUx4JUOsMPFrCxabaaHLcYLQYI33Y0oiSYrm0SevNeImctV2rk8AeEFUznqiqAsxJEgxCMF303pYs0wnTD5SDo2113iLhLaKW6n-o0RT1TfamUcbHJkkaeYpl9TzFjMt5XWfN_Bi37TJdwm2DJR9mr6YxfMe8MQ8D25lZT7PXjdBDVoQK1Ht66EQoMNIjNlEf5D78fPdRDnuWexXPHu7vXz7IXM_cyDzPYfd207Z669Pu0yv7V_ivfvzl3vyjnczD3SJgRx4Y0bZ46ruwUlxVnJY6YAf1iR4HxPBs6SRF2ZVVu1I3jojD0p097M7e3l972Pkrme8u_a-mfPBa5vnVz346_-Ofu0_-PH527faZrkxjSXQEJvRoSAGaUdK3b1D4oEOU4PFMrZiniuvxQ40_-vog8yTV1zP_Ag2&amp;cbcxt=&amp;username=crmtest.4%40aristocrat.com&amp;mkt=&amp;lc=&quot;).FindElement(&quot;//input[@value='Next']&quot;))"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

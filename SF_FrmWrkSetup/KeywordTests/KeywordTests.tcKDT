@@ -5,6 +5,7 @@
 			<folder name="Login">
 				<child name="Login" key="{E7F802BE-80A3-4881-94C5-37793CB087AB}" path="Login.tcKDTest" />
 				<child name="Logout" key="{7CBD0274-7D4B-484C-A5FD-9FCD537D986A}" path="Logout.tcKDTest" />
+				<child name="Login_D65" key="{218F5EE9-772E-4DA9-88AA-FA2C3DDE7864}" path="Login_D65.tcKDTest" />
 			</folder>
 		</folder>
 		<folder name="Tests">

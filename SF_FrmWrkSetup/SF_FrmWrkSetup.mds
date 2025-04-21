@@ -11,19 +11,24 @@
 	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
 	<testItems key="{1D51CA7E-CCF1-418D-9CBF-19614A544318}" version="14">
 		<children>
-			<testItem name="LoginTest" key="{15683932-77C0-46DD-8D50-3A280892E7D5}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{76DBB71C-6FB4-435D-A6CD-AFEFFEA01A67}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="LoginTest" key="{15683932-77C0-46DD-8D50-3A280892E7D5}" group="False" parallel="False" enabled="False" load="False" testMoniker="KDT\{76DBB71C-6FB4-435D-A6CD-AFEFFEA01A67}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="Logout_Test" key="{578FC917-97C1-4CC0-A7D1-9C18FC1056B1}" group="False" parallel="False" enabled="False" load="False" testMoniker="KDT\{6A3F69A3-2D53-444A-8066-79221407C2A3}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="Logout_Test" key="{578FC917-97C1-4CC0-A7D1-9C18FC1056B1}" group="False" parallel="False" enabled="False" load="False" testMoniker="KDT\{6A3F69A3-2D53-444A-8066-79221407C2A3}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="Compose_MailTest" key="{AB44E289-FF48-4060-87F4-3EC86420E16B}" group="False" parallel="False" enabled="False" load="False" testMoniker="{6EB63100-1F5F-4070-B2AF-A277FF41B3A6}Compose_MailTest" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="Compose_MailTest" key="{AB44E289-FF48-4060-87F4-3EC86420E16B}" group="False" parallel="False" enabled="False" load="False" testMoniker="{6EB63100-1F5F-4070-B2AF-A277FF41B3A6}Compose_MailTest" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="Login_D65" key="{C5BAADD4-7214-4669-BEBD-93B23C8433DD}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{218F5EE9-772E-4DA9-88AA-FA2C3DDE7864}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="CBT" />
 				<children />
 			</testItem>
 		</children>
