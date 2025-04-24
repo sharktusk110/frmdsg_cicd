@@ -1,0 +1,9 @@
+﻿import ReadExcel
+
+def Order_Creation_Validation():
+    account = ReadExcel.ReadAccountDataFromExcel("C:\\Users\\SA118193\\Desktop\\AccountSheet.xlsx")
+    #Clicks the 'textnodeHeader' control.
+    Aliases.browser.pageAllSalesOrdersFinanceAndOper.textnodeLines.textnodeHeader.Click()
+    #Checks whether the 'Text' property of the Aliases.browser.pageAllSalesOrdersFinanceAndOper.textnodeLines.buttonGeneral.textboxAfterTheLookupIsOpenYou object equals 'AM0111010'.
+    #Aliases.browser.pageAllSalesOrdersFinanceAndOper.textnodeLines.buttonGeneral.textboxAfterTheLookupIsOpenYou.getAttribute().
+    aqObject.CheckProperty(Aliases.browser.pageAllSalesOrdersFinanceAndOper.textnodeLines.buttonGeneral.textboxAfterTheLookupIsOpenYou, "Text", cmpEqual, account)

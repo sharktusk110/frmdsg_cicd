@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{FFEE7FFB-B84F-4E44-AC7F-C021DBCE8350}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45771.2562384259" objectName="Aliases.browser.pageAllSalesOrdersFinanceAndOper.buttonNewAltN" objectLeft="154" objectTop="198" objectRight="258" objectBottom="258" clickPointX="227" clickPointY="227" imageFileName="tcvi329464390261040.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45771.2565856481" objectName="Aliases.browser.pageAllSalesOrdersFinanceAndOper.buttonCustomer2.textboxShipToCustomerAccount" objectLeft="999" objectTop="426" objectRight="1244" objectBottom="471" clickPointX="1063" clickPointY="437" imageFileName="tcvi329494218261043.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="45771.2645138889" objectName="Aliases.browser.pageAllSalesOrdersFinanceAndOper.buttonOkAltEnter" objectLeft="1684" objectTop="1032" objectRight="1774" objectBottom="1077" clickPointX="1729" clickPointY="1056" imageFileName="tcvi330179078261041.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

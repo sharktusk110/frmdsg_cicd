@@ -779,6 +779,311 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="buttonNewAltN" Key="{3ADF9B05-97F3-4439-BD74-F2158667B690}">
+										<Image FileName="-838741164" Left="154" Top="198" Right="258" Bottom="258" />
+										<TypeInfo Item0="{121EDD53-2405-47FA-B9CB-CA73AF70E236}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@aria-describedby=(//div[.=&apos;New(Alt+N)&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(., &apos;New&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#salestablelistpage_1_SystemDefinedNewButton" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;salestablelistpage_1_PrioritizedPage&apos;]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonCustomer" Key="{FB0AED63-FA53-4219-8D25-A627C6B8C7F8}">
+										<Image FileName="99518185" Left="984" Top="278" Right="1766" Bottom="344" />
+										<Selectors>
+											<Selector>
+												<Value Value="#SalesCreateOrder_4_CustomerTab_caption" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;Customer&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@aria-label=&apos;Customer&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//div[5]//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//div[@id=&apos;SalesCreateOrder_4_CustomerTab&apos;]//button[contains(@class, &apos;section-page-caption&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;SalesCreateOrder_4_CustomerTab_header&apos;]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//div[5]//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelOpenAltDown" Key="{B416FCA7-158E-41AD-B51A-B57D80A68E54}">
+										<Image FileName="99518185" Left="1211" Top="429" Right="1241" Bottom="468" />
+										<TypeInfo Item0="{6DDC2C97-934D-4B13-BC1E-1235F29AE0DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@aria-describedby=&apos;qtip-superToolTip&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//div[@id=&apos;SalesCreateOrder_4_CustomerTab&apos;]//div[@id=&apos;SalesCreateOrder_4_groupCustomer&apos;]//div[@id=&apos;SalesCreateOrder_4_SalesTable_CustAccount&apos;]//div[contains(@class, &apos;lookupButton&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;SalesCreateOrder_4_SalesTable_CustAccount&apos;]//div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxName" Key="{D3CF5F76-D310-46AC-9594-9C22B6EB6574}">
+										<Image FileName="-1741196847" Left="289" Top="521" Right="617" Bottom="566" />
+										<TypeInfo Item0="{7C7E4D2B-5C55-44A0-A851-0EAAB100C633}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//div//input[@aria-label=&apos;Name&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//input[@value=&apos;HOLLYWOOD CASINO LAWRENCEBURG&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//div[@id=&apos;GridCell-0-DirPartyTable_Name&apos;]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//div[@id=&apos;GridCell-0-DirPartyTable_Name&apos;]//input[contains(@class, &apos;dyn-field&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;GridCell-0-DirPartyTable_Name&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//div[@id=&apos;GridCell-0-DirPartyTable_Name&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelSalescreateorder4Tabothers" Key="{4A5B74A8-A3F3-4178-A98C-E288A15CBD82}">
+										<Image FileName="-1873627825" Left="969" Top="269" Right="1884" Bottom="1002" />
+										<TypeInfo Item0="{6DDC2C97-934D-4B13-BC1E-1235F29AE0DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#SalesCreateOrder_4_TabOthers" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//div[contains(@class, &apos;FastTabs&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelOpenAltDown2" Key="{676E6FA6-2CD4-4EC3-B03B-11251DC69BB0}">
+										<Image FileName="-263625589" Left="1297" Top="689" Right="1327" Bottom="728" />
+										<TypeInfo Item0="{6DDC2C97-934D-4B13-BC1E-1235F29AE0DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@aria-describedby=&apos;qtip-superToolTip&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//div[@id=&apos;SalesCreateOrder_4_CustomerTab&apos;]//div[@id=&apos;SalesCreateOrder_4_groupAddress&apos;]//div[@id=&apos;SalesCreateOrder_4_GroupDeliveryAddress&apos;]//div[contains(@class, &apos;lookupButton&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxCity" Key="{5AB8DA3D-2202-4DC9-A1AF-60E50201C25F}">
+										<Image FileName="1966437306" Left="673" Top="394" Right="1001" Bottom="439" />
+										<TypeInfo Item0="{7C7E4D2B-5C55-44A0-A851-0EAAB100C633}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//div[2]//div[@id=&apos;GridCell-1-LogisticsPostalAddress_City&apos;]//input[@role=&apos;textbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//div[@id=&apos;LogisticsPostalAddressLookup_6_Tab&apos;]//div[2]//div[@id=&apos;GridCell-1-LogisticsPostalAddress_City&apos;]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//div[2]//div[@id=&apos;GridCell-1-LogisticsPostalAddress_City&apos;]//input[contains(@class, &apos;dyn-field&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;GridCell-1-LogisticsPostalAddress_City&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//div[@id=&apos;LogisticsPostalAddressLookup_6_Tab&apos;]//div[2]//div[@id=&apos;GridCell-1-LogisticsPostalAddress_City&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonOkAltEnter" Key="{8BB7DD31-E715-4E6D-92BB-A0AFEC6F8857}">
+										<Image FileName="1238130838" Left="1684" Top="1032" Right="1774" Bottom="1077" />
+										<TypeInfo Item0="{121EDD53-2405-47FA-B9CB-CA73AF70E236}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@aria-describedby=(//div[.=&apos;OK(Alt+Enter)&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(., &apos;OK&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#SalesCreateOrder_4_OK" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//div[5]//div[@id=&apos;SalesCreateOrder_4_ButtonGroup&apos;]//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonCustomer2" Key="{B9693090-D92C-49FE-8CA2-0A14B92FF13A}">
+										<Image FileName="1762974645" Left="984" Top="278" Right="1766" Bottom="344" />
+										<Selectors>
+											<Selector>
+												<Value Value="#SalesCreateOrder_14_CustomerTab_caption" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;Customer&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@aria-label=&apos;Customer&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//div[5]//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//div[@id=&apos;SalesCreateOrder_14_CustomerTab&apos;]//button[contains(@class, &apos;section-page-caption&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;SalesCreateOrder_14_CustomerTab_header&apos;]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//div[5]//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxShipToCustomerAccount" Key="{8E3FB7DC-5718-4375-B2AD-B635E94489B2}">
+										<Image FileName="1762974645" Left="999" Top="426" Right="1244" Bottom="471" />
+										<TypeInfo Item0="{7C7E4D2B-5C55-44A0-A851-0EAAB100C633}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@aria-labelledby=(//label[.=&apos;Ship to customer account&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#SalesCreateOrder_14_SalesTable_CustAccount_input" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;SalesTable_CustAccount&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelShellblockingdiv" Key="{1D86D8BF-B114-4537-92CF-44FAF24158FF}">
+										<Image FileName="-1571675710" Left="6" Top="111" Right="1914" Bottom="1122" />
+										<TypeInfo Item0="{6DDC2C97-934D-4B13-BC1E-1235F29AE0DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#ShellBlockingDiv" />
+											</Selector>
+											<Selector>
+												<Value Value="div[contains(@class, &apos;applicationShell-blockingMessage&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeLines" Key="{97D257CC-D683-4D21-886B-06F503D87F1B}">
+										<Image FileName="-2062123956" Left="117" Top="385" Right="1826" Bottom="428" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Lines&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form//div[@id=&apos;SalesTable_3_TabPageDetails_panel&apos;]//div/ul[@role=&apos;tablist&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form//div[@id=&apos;SalesTable_3_TabPageDetails_panel&apos;]//div/ul[contains(@class, &apos;pivot-list&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;SalesTable_3_TabPageDetails_panel&apos;]//div[@id=&apos;SalesTable_3_DetailsTab&apos;]/div/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form[2]/div[@role=&apos;region&apos;]//div[@id=&apos;SalesTable_3_TabPageDetails_panel&apos;]//div[@id=&apos;SalesTable_3_DetailsTab&apos;]/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHeader" Key="{41528930-C9C2-4316-8666-6C65D40BE1F2}">
+										<Image FileName="-2062123956" Left="204" Top="387" Right="271" Bottom="415" />
+										<TypeInfo Item0="{6DDC2C97-934D-4B13-BC1E-1235F29AE0DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Header&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form//div[@id=&apos;SalesTable_3_TabPageDetails_panel&apos;]//div/ul/li[@id=&apos;SalesTable_3_HeaderView_header&apos;]/span[contains(@class, &apos;pivot-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;SalesTable_3_HeaderView_header&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;SalesTable_3_TabPageDetails_panel&apos;]//div[@id=&apos;SalesTable_3_DetailsTab&apos;]//ul/li[@id=&apos;SalesTable_3_HeaderView_header&apos;]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonGeneral" Key="{BE164786-C1B3-477E-9EB2-4A9F02CF4EEA}">
+										<Image FileName="723989942" Left="117" Top="466" Right="786" Bottom="532" />
+										<Selectors>
+											<Selector>
+												<Value Value="#SalesTable_3_TabHeaderGeneral_caption" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;General&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@aria-label=&apos;General&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form[2]/div[@role=&apos;region&apos;]//div[2]//div[@id=&apos;SalesTable_3_TabPageDetails_panel&apos;]//div[@id=&apos;SalesTable_3_HeaderView_panel&apos;]//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form//div[@id=&apos;SalesTable_3_HeaderView_panel&apos;]//div[@id=&apos;SalesTable_3_TabHeaderGeneral&apos;]//button[contains(@class, &apos;section-page-caption&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;SalesTable_3_TabHeaderGeneral_header&apos;]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form[2]/div[@role=&apos;region&apos;]//div[2]//div[@id=&apos;SalesTable_3_TabPageDetails_panel&apos;]//div[@id=&apos;SalesTable_3_HeaderView_panel&apos;]//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxAfterTheLookupIsOpenYou" Key="{D70F10A0-F2ED-47E6-8CDB-A6A8AB2AC666}">
+										<Image FileName="723989942" Left="537" Top="576" Right="782" Bottom="621" />
+										<TypeInfo Item0="{7C7E4D2B-5C55-44A0-A851-0EAAB100C633}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#SalesTable_3_InvoiceAccount_input" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;InvoiceAccount&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@aria-describedby=&apos;SalesTable_3_InvoiceAccount_helptext&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;SalesTable_3_HeaderView_panel&apos;]//div/div[2]/div/div/input[@role=&apos;combobox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;SalesTable_3_InvoiceAccount&apos;]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;SalesTable_3_HeaderView_panel&apos;]//div/div[2]/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonNavbardashboard" Key="{F87E5614-282A-46E9-BA83-9C518C0221F0}">
+										<Image FileName="-1714519703" Left="91" Top="122" Right="410" Bottom="194" />
+										<TypeInfo Item0="{FC51182D-24C9-4073-9CAB-438B0D44C82D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@aria-describedby=(//div[contains(.,&apos;Finance and Operations(Alt+Shift+Home)&apos;)]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(., &apos;Finance and Operations&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#NavBarDashboard" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 						</Children>
@@ -931,6 +1236,26 @@
 				<Child Name="textnodeAllSalesOrders" Owner="{47B981C4-9B27-4F14-B8F4-456110E8C161}">
 					<Child Name="buttonQuotenumberquotenumberThis" Owner="{862E8BD5-BB46-4018-B432-30A5C2075DCF}" />
 				</Child>
+				<Child Name="buttonNewAltN" Owner="{3ADF9B05-97F3-4439-BD74-F2158667B690}" />
+				<Child Name="buttonCustomer" Owner="{FB0AED63-FA53-4219-8D25-A627C6B8C7F8}">
+					<Child Name="panelOpenAltDown" Owner="{B416FCA7-158E-41AD-B51A-B57D80A68E54}" />
+					<Child Name="panelOpenAltDown2" Owner="{676E6FA6-2CD4-4EC3-B03B-11251DC69BB0}" />
+				</Child>
+				<Child Name="textboxName" Owner="{D3CF5F76-D310-46AC-9594-9C22B6EB6574}" />
+				<Child Name="panelSalescreateorder4Tabothers" Owner="{4A5B74A8-A3F3-4178-A98C-E288A15CBD82}" />
+				<Child Name="textboxCity" Owner="{5AB8DA3D-2202-4DC9-A1AF-60E50201C25F}" />
+				<Child Name="buttonOkAltEnter" Owner="{8BB7DD31-E715-4E6D-92BB-A0AFEC6F8857}" />
+				<Child Name="buttonCustomer2" Owner="{B9693090-D92C-49FE-8CA2-0A14B92FF13A}">
+					<Child Name="textboxShipToCustomerAccount" Owner="{8E3FB7DC-5718-4375-B2AD-B635E94489B2}" />
+				</Child>
+				<Child Name="panelShellblockingdiv" Owner="{1D86D8BF-B114-4537-92CF-44FAF24158FF}" />
+				<Child Name="textnodeLines" Owner="{97D257CC-D683-4D21-886B-06F503D87F1B}">
+					<Child Name="textnodeHeader" Owner="{41528930-C9C2-4316-8666-6C65D40BE1F2}" />
+					<Child Name="buttonGeneral" Owner="{BE164786-C1B3-477E-9EB2-4A9F02CF4EEA}">
+						<Child Name="textboxAfterTheLookupIsOpenYou" Owner="{D70F10A0-F2ED-47E6-8CDB-A6A8AB2AC666}" />
+					</Child>
+				</Child>
+				<Child Name="buttonNavbardashboard" Owner="{F87E5614-282A-46E9-BA83-9C518C0221F0}" />
 			</Child>
 		</Child>
 		<Child Name="SnippingTool" Owner="{849F84DF-7D21-4077-87D7-F340283377F8}">

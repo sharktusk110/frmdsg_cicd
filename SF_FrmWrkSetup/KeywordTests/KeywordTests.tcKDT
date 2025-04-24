@@ -7,11 +7,18 @@
 				<child name="Logout" key="{7CBD0274-7D4B-484C-A5FD-9FCD537D986A}" path="Logout.tcKDTest" />
 				<child name="Login_D65" key="{218F5EE9-772E-4DA9-88AA-FA2C3DDE7864}" path="Login_D65.tcKDTest" />
 			</folder>
+			<folder name="CP">
+				<child name="Order_Creation" key="{FFEE7FFB-B84F-4E44-AC7F-C021DBCE8350}" path="Order_Creation.tcKDTest" />
+			</folder>
 		</folder>
 		<folder name="Tests">
 			<folder name="Login_Tests">
 				<child name="LoginTest" key="{76DBB71C-6FB4-435D-A6CD-AFEFFEA01A67}" path="LoginTest.tcKDTest" />
 				<child name="Logout_Test" key="{6A3F69A3-2D53-444A-8066-79221407C2A3}" path="Logout_Test.tcKDTest" />
+				<child name="LoginTest_D65" key="{77E51098-F9D5-4A60-BB31-5D06429131DA}" path="LoginTest_D65.tcKDTest" />
+			</folder>
+			<folder name="CP_Tests">
+				<child name="Order_Creation_Test" key="{E8561B8B-1950-4D38-ABD5-0F388642FF7E}" path="Order_Creation_Test.tcKDTest" />
 			</folder>
 		</folder>
 		<folder name="Common Components">

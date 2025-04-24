@@ -1,4 +1,5 @@
-﻿def Compose_Mail():
+﻿
+def Compose_Mail():
     #Clicks the 'panelCompose' control.
     Aliases.browser.pageInbox5Zenithzehra67GmailComG.panelCompose.Click()
     #Sets the text 'sharikh07@gmail.com' in the 'textboxToRecipients' text editor.

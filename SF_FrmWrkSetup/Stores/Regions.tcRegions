@@ -16,5 +16,8 @@
 		<child name="pageSentMailZenithzehra67GmailCo1" key="{9859DCEE-871B-4D27-8FCF-B4A71AC5EC9C}">
 			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="pageSentMailZenithzehra67GmailCo1" ID="{9859DCEE-871B-4D27-8FCF-B4A71AC5EC9C}" FileName="Regions\pageSentMailZenithzehra67GmailCo1.png" Update="False" />
 		</child>
+		<child name="pageDashboardFinanceAndOperation" key="{7DCE63B5-8EB5-40B0-A4B4-FB99B382647F}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="pageDashboardFinanceAndOperation" ID="{7DCE63B5-8EB5-40B0-A4B4-FB99B382647F}" FileName="Regions\pageDashboardFinanceAndOperation.png" Update="False" />
+		</child>
 	</children>
 </Root>

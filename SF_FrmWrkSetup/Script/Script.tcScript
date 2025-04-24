@@ -5,15 +5,22 @@
 			<folder name="ComposeActions">
 				<child name="ComposeMail" key="{78C037CF-8AA7-472A-AB88-FB0CA0864DFC}" path="ComposeMail.py" />
 			</folder>
+			<folder name="CP">
+				<child name="OrderCreation" key="{33DD1065-5865-4AE7-9057-E36CF55E4304}" path="OrderCreation.py" />
+			</folder>
 		</folder>
 		<folder name="Test">
 			<folder name="ComposeActionsTests">
 				<child name="ComposeMailTest" key="{6EB63100-1F5F-4070-B2AF-A277FF41B3A6}" path="ComposeMailTest.py" />
 			</folder>
+			<folder name="CP_Test">
+				<child name="Order_Creation_Test" key="{F39E5592-7DAB-4D7B-B93D-75A9EC1CA99A}" path="Order_Creation_Test.py" />
+			</folder>
 		</folder>
 		<folder name="CommonUtility">
 			<folder name="ReadExcel">
 				<child name="ReadExcel" key="{8B951F44-38ED-4061-8451-2C7C763F5EDE}" path="ReadExcel.py" />
+				<child name="JunkUtility" key="{DDB1E78B-3305-4E70-9FB4-F7F22E508EDB}" path="JunkUtility.py" />
 			</folder>
 			<folder name="Reporting">
 				<child name="Report_Formatting" key="{F0BFC4B5-6097-43C1-A065-574415EF8531}" path="Report_Formatting.py" />
@@ -22,5 +29,6 @@
 		<folder name="Utilities Browser">
 			<child name="HeadlessBrowserInitiation" key="{77F80BFF-B4FA-42BC-8E77-ED1AE78B62D6}" path="HeadlessBrowserInitiation.py" />
 		</folder>
+		<folder name="Data" />
 	</children>
 </Root>

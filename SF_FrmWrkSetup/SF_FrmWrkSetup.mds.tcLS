@@ -32,6 +32,15 @@
 					<Node name="var1">
 						<Prp name="name" type="S" value="Username"/>
 					</Node>
+					<Node name="var10">
+						<Prp name="name" type="S" value="d65username"/>
+					</Node>
+					<Node name="var11">
+						<Prp name="name" type="S" value="d65password"/>
+					</Node>
+					<Node name="var12">
+						<Prp name="name" type="S" value="d65url"/>
+					</Node>
 					<Node name="var2">
 						<Prp name="name" type="S" value="Password"/>
 					</Node>

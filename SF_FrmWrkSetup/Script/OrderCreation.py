@@ -1,0 +1,19 @@
+﻿import ReadExcel
+
+def Order_Creation():
+    account = ReadExcel.ReadAccountDataFromExcel("C:\\Users\\SA118193\\Desktop\\AccountSheet.xlsx")
+    nav=Aliases.browser.pageAllSalesOrdersFinanceAndOper
+    #Opens the specified URL in a running instance of the specified browser.
+    Browsers.Item[btEdge].Navigate("https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&mi=SalesTableListPage")
+    #Maximizes the specified Window object.
+    Aliases.browser.BrowserWindow.Maximize()
+    #Clicks the 'buttonNewAltN' button.
+    nav.buttonNewAltN.ClickButton()
+    #Waits until the browser loads the page and is ready to accept user input.
+    nav.Wait()
+    #Enters text in the text box.
+    nav.buttonCustomer2.textboxShipToCustomerAccount.SetText(account)
+    #Waits until the browser loads the page and is ready to accept user input.
+    nav.Wait()
+    #Clicks the 'buttonOkAltEnter' button.
+    nav.buttonOkAltEnter.ClickButton()

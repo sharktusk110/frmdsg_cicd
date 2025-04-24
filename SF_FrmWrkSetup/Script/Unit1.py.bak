@@ -1,0 +1,5 @@
+﻿import ReadExcel
+
+def chk():
+    glk=ReadExcel.ReadAccountDataFromExcel()
+    Log.Message("Row: " + glk);
