@@ -21,6 +21,11 @@
 				<environments activeCloud="CBT" />
 				<children />
 			</testItem>
+			<testItem name="Stop_Browser" key="{4277205F-D639-4ACE-AA81-7F9BAC64D6F2}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{4628E25F-CE72-42C7-8AC1-6F0061FF2025}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
 		</children>
 	</testItems>
 	<variables key="{F4988DEA-26C7-4F1E-BBF1-CE36573094FA}">
