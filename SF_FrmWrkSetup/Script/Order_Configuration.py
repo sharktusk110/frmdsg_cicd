@@ -8,13 +8,13 @@
     nav.formSalesOrder.buttonSalestable22Econconfigure.ClickButton()
     #Clicks the 'buttonConfigureinnewwindowbutton' button.
     nav.buttonConfigureinnewwindowbutton.ClickButton()
-    Delay(20000);
+    Delay(30000);
     #Clicks the 'textnodeConfiguration1' control.
     configpg.textnodeOrderConfigurator.textnodeOrderConfigurator2.linkConfiguration1.textnodeConfiguration1.Click()
     #Clicks the 'linkShowAll' link.
     Delay(5000);
     #entering type details
-    Log.Message("Row: " + config[0] +" "+config[5]);
+    #Log.Message("Row: " + config[0] +" "+config[5]);
     configpg.textboxType.SetText(config[0]) #Setchip
     configpg.textboxType.Keys("[Enter]")
     Delay(5000);
