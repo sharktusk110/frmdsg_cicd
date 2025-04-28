@@ -1,7 +1,6 @@
 ﻿import ReadExcel
 
-def Order_Creation():
-    account = ReadExcel.ReadAccountDataFromExcel("C:\\Users\\SA118193\\Desktop\\AccountSheet.xlsx")
+def Order_Creation(account):
     nav=Aliases.browser.pageAllSalesOrdersFinanceAndOper
     #Opens the specified URL in a running instance of the specified browser.
     Browsers.Item[btEdge].Navigate("https://qa1.sandbox.operations.dynamics.com/?cmp=AM01&mi=SalesTableListPage")
@@ -17,3 +16,5 @@ def Order_Creation():
     nav.Wait()
     #Clicks the 'buttonOkAltEnter' button.
     nav.buttonOkAltEnter.ClickButton()
+
+

@@ -2,8 +2,10 @@
 import OrderCreation
 
 def Order_Creation_Test():
-    OrderCreation.Order_Creation()
-    account = ReadExcel.ReadAccountDataFromExcel("C:\\Users\\SA118193\\Desktop\\AccountSheet.xlsx")
+ for i in range(2,3):
+    account = ReadExcel.ReadAccountDataFromExcel("C:\\Users\\SA118193\\Desktop\\AccountSheet1.xlsx",i)
+    OrderCreation.Order_Creation(account)
+    #account = ReadExcel.ReadAccountDataFromExcel("C:\\Users\\SA118193\\Desktop\\AccountSheet.xlsx",2)
     #Clicks the 'textnodeHeader' control.
     Aliases.browser.pageAllSalesOrdersFinanceAndOper.textnodeLines.textnodeHeader.Click()
     #Aliases.browser.pageAllSalesOrdersFinanceAndOper.textnodeLines.buttonGeneral.textboxAfterTheLookupIsOpenYou.getAttribute().

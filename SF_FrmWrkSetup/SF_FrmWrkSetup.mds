@@ -18,12 +18,17 @@
 			</testItem>
 			<testItem name="Order_Creation_Test" key="{EECE035C-A41F-45D2-9A12-FC9E1B0592ED}" group="False" parallel="False" enabled="True" load="False" testMoniker="{F39E5592-7DAB-4D7B-B93D-75A9EC1CA99A}Order_Creation_Test" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
-				<environments activeCloud="CBT" />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="OrderConfigurationTest" key="{FFEA8FEC-EBC4-4DBA-A21C-D40E725A6933}" group="False" parallel="False" enabled="True" load="False" testMoniker="{2E81C073-6070-4B92-B3BA-B9B54F0680B0}OrderConfigurationTest" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 			<testItem name="Stop_Browser" key="{4277205F-D639-4ACE-AA81-7F9BAC64D6F2}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{4628E25F-CE72-42C7-8AC1-6F0061FF2025}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
-				<environments activeCloud="CBT" />
+				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 		</children>

@@ -1,0 +1,3 @@
+﻿
+def func(config):
+  Log.Message("Row: " + config[0] +" "+config[5]);

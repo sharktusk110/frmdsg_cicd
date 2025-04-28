@@ -1,13 +1,29 @@
-﻿def ReadAccountDataFromExcel():
+﻿def ReadAccountDataFromExcel(expath,row):
     Excel = Sys.OleObject["Excel.Application"]
-    Excel.Workbooks.Open("C:\\Users\\SA118193\\Desktop\\AccountSheet.xlsx")
+    Excel.Workbooks.Open(expath)
   
     RowCount = Excel.ActiveSheet.UsedRange.Rows.Count
     ColumnCount = Excel.ActiveSheet.UsedRange.Columns.Count
-    val=VarToString(Excel.Cells.Item[2, 1])
+    val=VarToString(Excel.Cells.Item[row, 1])
     #Log.Message("Row: " + val);
     return val
     Excel.Quit();
+    
+def ReadConfigDataFromExcel(expath,row):
+        Excel = Sys.OleObject["Excel.Application"]
+        Excel.Workbooks.Open(expath)
+      
+        RowCount = Excel.ActiveSheet.UsedRange.Rows.Count
+        ColumnCount = Excel.ActiveSheet.UsedRange.Columns.Count
+        val1=VarToString(Excel.Cells.Item[row, 2])
+        val2=VarToString(Excel.Cells.Item[row, 3])
+        val3=VarToString(Excel.Cells.Item[row, 4])
+        val4=VarToString(Excel.Cells.Item[row, 5])
+        val5=VarToString(Excel.Cells.Item[row, 6])
+        val6=VarToString(Excel.Cells.Item[row, 7])
+        #Log.Message("Row: " + val);
+        return val
+        Excel.Quit();
     
 
   

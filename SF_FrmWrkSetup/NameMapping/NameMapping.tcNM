@@ -1084,6 +1084,569 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="buttonSalestable22SalesorderButt" Key="{AF39FBC8-96DA-4F80-94F2-1ED14AABF6FE}">
+										<Image FileName="130718194" Left="550" Top="209" Right="688" Bottom="271" />
+										<TypeInfo Item0="{121EDD53-2405-47FA-B9CB-CA73AF70E236}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#SalesTable_2_SalesOrder_button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;SalesTable_2_SalesOrder&apos;]/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form[@id=&apos;form_437_0&apos;]/div/div/div/button[contains(@class, &apos;appBarTab-header&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;SalesTable_2_SalesOrder&apos;]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formSalesOrder" Key="{22FFBD41-EACE-487C-BCED-E3FC106F7D32}">
+										<Image FileName="873057802" Left="80" Top="183" Right="1915" Bottom="1122" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Save&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;editMode&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSalestable22Econconfigure" Key="{0086F76C-1DA3-4D82-93A3-47AC39C90CED}">
+										<Image FileName="873057802" Left="513" Top="311" Right="626" Bottom="347" />
+										<TypeInfo Item0="{121EDD53-2405-47FA-B9CB-CA73AF70E236}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@aria-describedby=(//div[.=&apos;ConfigureCreate or update a configuration with e-Con.&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(., &apos;Configure&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#SalesTable_22_eConConfigure" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;SalesTable_22_ConfigureOrder&apos;]/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonConfigureinnewwindowbutton" Key="{CD0A65BF-D39C-4E05-8398-25C7011BB487}">
+										<Image FileName="-2029162019" Left="239" Top="307" Right="503" Bottom="359" />
+										<TypeInfo Item0="{121EDD53-2405-47FA-B9CB-CA73AF70E236}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#configureInNewWindowButton" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;Switch to the e-Con tab&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;EConFrontEndWbr_37_EConBrowseControl2&apos;]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//div[5]//div[@id=&apos;EConFrontEndWbr_37_EConBrowseControl2&apos;]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelStatus" Key="{F0FDBEC5-0E3B-4E50-BD45-EE069EEE3699}">
+										<TypeInfo Item0="{ECA143B5-5D81-4B57-9D41-E6F60932523C}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="status" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="buttonLineDetails" Key="{625ABB8F-8E92-4A1D-B7D2-50ADB127A7EB}">
+										<Image FileName="-788797897" Left="117" Top="750" Right="1692" Bottom="816" />
+										<TypeInfo Item0="{FC51182D-24C9-4073-9CAB-438B0D44C82D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#SalesTable_2_LineViewLineDetails_caption" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;Line details&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;region&apos;]//div[2]//div[@id=&apos;SalesTable_2_TabPageDetails_panel&apos;]//div[@id=&apos;SalesTable_2_LineView_panel&apos;]//div[@id=&apos;SalesTable_2_LineViewLineDetails&apos;]//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form//div[3]//div[@id=&apos;SalesTable_2_LineViewLineDetails&apos;]//button[contains(@class, &apos;section-page-caption&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;SalesTable_2_LineViewLineDetails_header&apos;]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;region&apos;]//div[2]//div[@id=&apos;SalesTable_2_TabPageDetails_panel&apos;]//div[@id=&apos;SalesTable_2_LineView_panel&apos;]//div[@id=&apos;SalesTable_2_LineViewLineDetails&apos;]//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeGeneral" Key="{7C89970A-74F0-456A-B380-F716B63533B3}">
+										<Image FileName="-788797897" Left="173" Top="850" Right="1748" Bottom="893" />
+										<TypeInfo Item0="{ECA143B5-5D81-4B57-9D41-E6F60932523C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;General&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form//div[@id=&apos;SalesTable_2_TabPageDetails_panel&apos;]//div[@id=&apos;SalesTable_2_LineView_panel&apos;]//ul[@role=&apos;tablist&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form//div[@id=&apos;SalesTable_2_TabPageDetails_panel&apos;]//div[@id=&apos;SalesTable_2_LineView_panel&apos;]//ul[contains(@class, &apos;pivot-list&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;SalesTable_2_LineViewLineDetails_container&apos;]//div/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;region&apos;]//div[@id=&apos;SalesTable_2_TabPageDetails_panel&apos;]//div[@id=&apos;SalesTable_2_DetailsTab&apos;]/div[@id=&apos;SalesTable_2_LineView_panel&apos;]//div[@id=&apos;SalesTable_2_LineViewLineDetails&apos;]//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textareaText" Key="{150B8D6C-5F60-4D80-82DE-BDA44783BF2E}">
+										<Image FileName="-788797897" Left="143" Top="1162" Right="473" Bottom="1340" />
+										<TypeInfo Item0="{A887EC15-02AD-41A5-8F9D-0F85894B2636}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//textarea[@aria-labelledby=(//label[.=&apos;Text&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#SalesTable_2_SalesLine_Name_textArea" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]/form//div[@id=&apos;SalesTable_2_LineViewLineDetails&apos;]//textarea" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndChrome_WidgetWin_0" Key="{FC8AE68A-853A-4665-883F-48C75AFC4009}">
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Chrome_WidgetWin_0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Chrome_RenderWidgetHostHWND" Key="{87B94202-9189-46B1-A1F6-47F24FF24E2A}">
+										<TypeInfo Item0="{64FC526D-0119-481E-9137-8A1E3A33934B}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Chrome_RenderWidgetHostHWND" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Chrome Legacy Window" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="page00300505XmlECon" Key="{E67A00D3-D138-4DBA-9421-074767B4836D}">
+								<Image FileName="450843918" Left="6" Top="111" Right="1914" Bottom="1122" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://econqa1d.aristocrat.com/qa1d/eConEngineHtml.aspx*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeOrderConfigurator" Key="{479B0467-B061-4479-A793-D80C2718B2E7}">
+										<Image FileName="450843918" Left="6" Top="243" Right="194" Bottom="1035" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Order Configurator&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;oMain1Container&apos;]//div[@id=&apos;oTreeContainer&apos;]//ul[contains(@class, &apos;ui-helper-reset&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeOrderConfigurator2" Key="{EE5080AF-DE9D-49CE-A863-B8A5A4CA4416}">
+										<Image FileName="450843918" Left="6" Top="243" Right="194" Bottom="356" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Order Configurator&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;collapsable&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkConfiguration1" Key="{33B6DDEE-EE4E-491C-99EE-92D3758D0138}">
+										<Image FileName="450843918" Left="14" Top="299" Right="194" Bottom="355" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Configuration[1]&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;eConTreeNodeLink&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;oTree&apos;]//a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;oTreeContainer&apos;]/div[@id=&apos;oTree&apos;]//ul/li/ul/li//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeConfiguration1" Key="{1DB262AF-159B-49EA-9562-05EFDFEEC4A5}">
+										<Image FileName="450843918" Left="51" Top="310" Right="198" Bottom="345" />
+										<TypeInfo Item0="{6DDC2C97-934D-4B13-BC1E-1235F29AE0DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Configuration[1]&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a/span[contains(@class, &apos;eConTreeNodeLabel&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;oTree&apos;]//a/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;oMain1Container&apos;]//ul/li/ul/li//a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkShowAll" Key="{6AED7B26-D806-484F-8FF3-B24414EF69FE}">
+										<Image FileName="608268913" Left="969" Top="324" Right="1014" Bottom="369" />
+										<TypeInfo Item0="{6DDC2C97-934D-4B13-BC1E-1235F29AE0DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[@aria-describedby=(//div[.=&apos;Show all&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;oMain1Container&apos;]//div[@id=&apos;oMain3Container&apos;]//div[@id=&apos;oMain4Container&apos;]//div[@id=&apos;paneCollection1&apos;]//tr[2]/td//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeBillAcceptorPrinterPlaye" Key="{786B6BE0-7133-473B-90E1-EE9960FA61A6}">
+										<Image FileName="-1718659752" Left="489" Top="369" Right="969" Bottom="887" />
+										<Selectors>
+											<Selector>
+												<Value Value="ul[contains(., &apos;Bill Acceptor/Printer/Player Tracking&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="ul[contains(@class, &apos;ui-autocomplete&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSetchip" Key="{E34CB52E-03CA-47F9-870F-FA73EC2577DA}">
+										<Image FileName="-1718659752" Left="490" Top="671" Right="968" Bottom="714" />
+										<TypeInfo Item0="{6DDC2C97-934D-4B13-BC1E-1235F29AE0DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Setchip&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[8]/a[contains(@class, &apos;ui-corner-all&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[8]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{F08524E7-131B-40FC-9A92-3DFECDD8FDC1}">
+										<Image FileName="1228734042" Left="979" Top="581" Right="1003" Bottom="605" />
+										<TypeInfo Item0="{6DDC2C97-934D-4B13-BC1E-1235F29AE0DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;oMain3Container&apos;]//div[@id=&apos;paneCollection1&apos;]//tr[6]/td//a/span[contains(@class, &apos;ui-button-icon-primary&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;MainPane1&apos;]//tr[6]/td[2]//a[@role=&apos;button&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;oMain1Container&apos;]//div[@id=&apos;oMain3Container&apos;]//table//tr[6]/td[2]//a[@role=&apos;button&apos;]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeClassIi" Key="{7F045402-B94B-4282-ABDA-5C7D45E57119}">
+										<Image FileName="1020241448" Left="489" Top="617" Right="969" Bottom="877" />
+										<Selectors>
+											<Selector>
+												<Value Value="ul[contains(., &apos;Class II&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkClassIii" Key="{1DB1375F-FC41-4D25-BE90-D6FDA80F4B01}">
+										<Image FileName="1020241448" Left="490" Top="704" Right="968" Bottom="747" />
+										<TypeInfo Item0="{6DDC2C97-934D-4B13-BC1E-1235F29AE0DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Class III&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/a[contains(@class, &apos;ui-corner-all&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{2BC60BCD-05DB-4C10-8BC2-F6E7BFB18390}">
+										<Image FileName="-195030565" Left="979" Top="638" Right="1003" Bottom="662" />
+										<TypeInfo Item0="{6DDC2C97-934D-4B13-BC1E-1235F29AE0DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;oMain3Container&apos;]//div[@id=&apos;paneCollection1&apos;]//tr[7]/td//a/span[contains(@class, &apos;ui-button-icon-primary&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;MainPane1&apos;]//tr[7]/td//a/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;oMain1Container&apos;]//div[@id=&apos;oMain3Container&apos;]//table//tr[7]/td//a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode3" Key="{4B14DBD5-9458-47BB-BE8B-EE21EC80D7B6}">
+										<Image FileName="-2093449689" Left="979" Top="776" Right="1003" Bottom="800" />
+										<TypeInfo Item0="{6DDC2C97-934D-4B13-BC1E-1235F29AE0DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;oMain3Container&apos;]//tr[10]/td//a/span[contains(@class, &apos;ui-button-icon-primary&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;MainPane1&apos;]//tr[10]/td[2]//a/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;oMain1Container&apos;]//div[@id=&apos;oMain3Container&apos;]//table//tr[10]/td[2]//a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell" Key="{30E5BEDD-8715-4E40-A85F-60F226F425C7}">
+										<Image FileName="1109103666" Left="984" Top="322" Right="1284" Bottom="360" />
+										<TypeInfo Item0="{6DDC2C97-934D-4B13-BC1E-1235F29AE0DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[.=&apos;SC7025202-G8|01&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode4" Key="{E94092C4-CD19-4510-82AA-11C687BD15F2}">
+										<Image FileName="1148041518" Left="979" Top="833" Right="1003" Bottom="857" />
+										<TypeInfo Item0="{6DDC2C97-934D-4B13-BC1E-1235F29AE0DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;oMain3Container&apos;]//tr[11]/td//a/span[contains(@class, &apos;ui-button-icon-primary&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;MainPane1&apos;]//tr[11]/td[2]//a/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;oMain1Container&apos;]//div[@id=&apos;oMain3Container&apos;]//table//tr[11]/td[2]//a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell2" Key="{8FB85FB0-C3C4-4AD7-9FE2-51F193D25494}">
+										<Image FileName="-1067093866" Left="984" Top="322" Right="1284" Bottom="360" />
+										<TypeInfo Item0="{6DDC2C97-934D-4B13-BC1E-1235F29AE0DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[.=&apos;LNXX.52.8-G8|01&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode5" Key="{36016949-DA43-4C4D-9F5A-6730FD8C363D}">
+										<Image FileName="1703923849" Left="979" Top="890" Right="1003" Bottom="914" />
+										<TypeInfo Item0="{6DDC2C97-934D-4B13-BC1E-1235F29AE0DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;oMain3Container&apos;]//tr[12]/td//a/span[contains(@class, &apos;ui-button-icon-primary&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;MainPane1&apos;]//tr[12]/td[2]//a/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;oMain1Container&apos;]//div[@id=&apos;oMain3Container&apos;]//table//tr[12]/td[2]//a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkOrderConfigurator" Key="{CBB6AD39-836E-49AF-903C-4E021973BFAE}">
+										<Image FileName="-1216144571" Left="14" Top="303" Right="194" Bottom="371" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Order Configurator&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;eConTreeNodeLink&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;oTree&apos;]//a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;oMain1Container&apos;]//div[@id=&apos;oTreeContainer&apos;]/div[@id=&apos;oTree&apos;]//ul/li//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeOrderConfigurator3" Key="{8F5AC421-6FA7-41C2-B228-00C32CC9E358}">
+										<Image FileName="-1216144571" Left="41" Top="317" Right="215" Bottom="352" />
+										<TypeInfo Item0="{6DDC2C97-934D-4B13-BC1E-1235F29AE0DB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Order Configurator&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a/span[contains(@class, &apos;eConTreeNodeLabel&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;oTree&apos;]//a/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;oMain1Container&apos;]//div[2]/ul/li//a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeComplianceCheck" Key="{032EAA5D-4AB2-40B1-8164-876813E47ECF}">
+										<Image FileName="-474268081" Left="1179" Top="183" Right="1914" Bottom="243" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Compliance Check&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/ul[contains(@class, &apos;ui-helper-reset&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;oMainContainer&apos;]//div[2]/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode6" Key="{3DCF598E-D0D3-4086-86B6-E6D5EA051BFE}">
+										<Image FileName="-474268081" Left="1389" Top="183" Right="1494" Bottom="243" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul/li[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonProcessExit" Key="{48D54713-5995-4D2D-BB72-2286CC046501}">
+										<Image FileName="-474268081" Left="1389" Top="183" Right="1494" Bottom="243" />
+										<TypeInfo Item0="{121EDD53-2405-47FA-B9CB-CA73AF70E236}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@aria-describedby=(//div[.=&apos;Process &amp; Exit&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonYes" Key="{3DA17CB3-5431-41AA-BEC2-CFD154E3D07A}">
+										<Image FileName="25938167" Left="1001" Top="698" Right="1075" Bottom="745" />
+										<TypeInfo Item0="{121EDD53-2405-47FA-B9CB-CA73AF70E236}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Yes&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div[3]/div/button[@role=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div[3]/div/button[contains(@class, &apos;ui-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div[3]/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxType" Key="{56618AFD-DA03-4519-850E-30278475A9A5}">
+										<Image FileName="578808482" Left="500" Top="329" Right="980" Bottom="374" />
+										<TypeInfo Item0="{740673F4-11BD-48CE-BE1E-4DB7725C82EB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Type*&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#ID0E3" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;paneCollection1&apos;]//tr[2]/td//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxGamingClassification" Key="{9DCF406B-1953-4D1F-8636-0AA7FE94605B}">
+										<Image FileName="1425355565" Left="500" Top="582" Right="980" Bottom="627" />
+										<TypeInfo Item0="{740673F4-11BD-48CE-BE1E-4DB7725C82EB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Gaming Classification*&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#ID0ENE" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;paneCollection1&apos;]//tr[6]/td//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxPlatformPfm" Key="{A4CA79B9-EE81-4F8B-8980-FC1C15ADAA8F}">
+										<Image FileName="-569633773" Left="500" Top="639" Right="980" Bottom="684" />
+										<TypeInfo Item0="{740673F4-11BD-48CE-BE1E-4DB7725C82EB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Platform (PFM)&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#ID0EQF" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;paneCollection1&apos;]//tr[7]/td//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxSetChipEpg" Key="{D7F26B6A-6FFF-4FBA-9DD4-A45D9FCED377}">
+										<Image FileName="1742139034" Left="500" Top="776" Right="980" Bottom="821" />
+										<TypeInfo Item0="{740673F4-11BD-48CE-BE1E-4DB7725C82EB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Set Chip (EPG)*&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#ID0EWG" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;paneCollection1&apos;]//tr[10]/td//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxOsLnx" Key="{4A0685C6-5F08-466C-BFCD-F82BA83D2524}">
+										<Image FileName="1742139034" Left="500" Top="833" Right="980" Bottom="878" />
+										<TypeInfo Item0="{740673F4-11BD-48CE-BE1E-4DB7725C82EB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;OS (LNX)*&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#ID0EFH" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;paneCollection1&apos;]//tr[11]/td//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxBootloaderBtl" Key="{7FB7D788-24BE-421B-8A8F-39120A7D4081}">
+										<Image FileName="-2115114153" Left="500" Top="890" Right="980" Bottom="935" />
+										<TypeInfo Item0="{740673F4-11BD-48CE-BE1E-4DB7725C82EB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Bootloader (BTL)*&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#ID0EUH" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;paneCollection1&apos;]//tr[12]/td//input" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 						</Children>
@@ -1254,8 +1817,60 @@
 					<Child Name="buttonGeneral" Owner="{BE164786-C1B3-477E-9EB2-4A9F02CF4EEA}">
 						<Child Name="textboxAfterTheLookupIsOpenYou" Owner="{D70F10A0-F2ED-47E6-8CDB-A6A8AB2AC666}" />
 					</Child>
+					<Child Name="buttonLineDetails" Owner="{625ABB8F-8E92-4A1D-B7D2-50ADB127A7EB}">
+						<Child Name="textnodeGeneral" Owner="{7C89970A-74F0-456A-B380-F716B63533B3}">
+							<Child Name="textareaText" Owner="{150B8D6C-5F60-4D80-82DE-BDA44783BF2E}" />
+						</Child>
+					</Child>
 				</Child>
 				<Child Name="buttonNavbardashboard" Owner="{F87E5614-282A-46E9-BA83-9C518C0221F0}" />
+				<Child Name="buttonSalestable22SalesorderButt" Owner="{AF39FBC8-96DA-4F80-94F2-1ED14AABF6FE}" />
+				<Child Name="formSalesOrder" Owner="{22FFBD41-EACE-487C-BCED-E3FC106F7D32}">
+					<Child Name="buttonSalestable22Econconfigure" Owner="{0086F76C-1DA3-4D82-93A3-47AC39C90CED}" />
+				</Child>
+				<Child Name="buttonConfigureinnewwindowbutton" Owner="{CD0A65BF-D39C-4E05-8398-25C7011BB487}" />
+				<Child Name="panelStatus" Owner="{F0FDBEC5-0E3B-4E50-BD45-EE069EEE3699}" />
+			</Child>
+			<Child Name="wndChrome_WidgetWin_0" Owner="{FC8AE68A-853A-4665-883F-48C75AFC4009}">
+				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{87B94202-9189-46B1-A1F6-47F24FF24E2A}" />
+			</Child>
+			<Child Name="page00300505XmlECon" Owner="{E67A00D3-D138-4DBA-9421-074767B4836D}">
+				<Child Name="textnodeOrderConfigurator" Owner="{479B0467-B061-4479-A793-D80C2718B2E7}">
+					<Child Name="textnodeOrderConfigurator2" Owner="{EE5080AF-DE9D-49CE-A863-B8A5A4CA4416}">
+						<Child Name="linkConfiguration1" Owner="{33B6DDEE-EE4E-491C-99EE-92D3758D0138}">
+							<Child Name="textnodeConfiguration1" Owner="{1DB262AF-159B-49EA-9562-05EFDFEEC4A5}" />
+						</Child>
+						<Child Name="linkOrderConfigurator" Owner="{CBB6AD39-836E-49AF-903C-4E021973BFAE}">
+							<Child Name="textnodeOrderConfigurator3" Owner="{8F5AC421-6FA7-41C2-B228-00C32CC9E358}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="linkShowAll" Owner="{6AED7B26-D806-484F-8FF3-B24414EF69FE}" />
+				<Child Name="textnodeBillAcceptorPrinterPlaye" Owner="{786B6BE0-7133-473B-90E1-EE9960FA61A6}">
+					<Child Name="linkSetchip" Owner="{E34CB52E-03CA-47F9-870F-FA73EC2577DA}" />
+				</Child>
+				<Child Name="textnode" Owner="{F08524E7-131B-40FC-9A92-3DFECDD8FDC1}" />
+				<Child Name="textnodeClassIi" Owner="{7F045402-B94B-4282-ABDA-5C7D45E57119}">
+					<Child Name="linkClassIii" Owner="{1DB1375F-FC41-4D25-BE90-D6FDA80F4B01}" />
+				</Child>
+				<Child Name="textnode2" Owner="{2BC60BCD-05DB-4C10-8BC2-F6E7BFB18390}" />
+				<Child Name="textnode3" Owner="{4B14DBD5-9458-47BB-BE8B-EE21EC80D7B6}" />
+				<Child Name="cell" Owner="{30E5BEDD-8715-4E40-A85F-60F226F425C7}" />
+				<Child Name="textnode4" Owner="{E94092C4-CD19-4510-82AA-11C687BD15F2}" />
+				<Child Name="cell2" Owner="{8FB85FB0-C3C4-4AD7-9FE2-51F193D25494}" />
+				<Child Name="textnode5" Owner="{36016949-DA43-4C4D-9F5A-6730FD8C363D}" />
+				<Child Name="textnodeComplianceCheck" Owner="{032EAA5D-4AB2-40B1-8164-876813E47ECF}">
+					<Child Name="textnode6" Owner="{3DCF598E-D0D3-4086-86B6-E6D5EA051BFE}">
+						<Child Name="buttonProcessExit" Owner="{48D54713-5995-4D2D-BB72-2286CC046501}" />
+					</Child>
+				</Child>
+				<Child Name="buttonYes" Owner="{3DA17CB3-5431-41AA-BEC2-CFD154E3D07A}" />
+				<Child Name="textboxType" Owner="{56618AFD-DA03-4519-850E-30278475A9A5}" />
+				<Child Name="textboxGamingClassification" Owner="{9DCF406B-1953-4D1F-8636-0AA7FE94605B}" />
+				<Child Name="textboxPlatformPfm" Owner="{A4CA79B9-EE81-4F8B-8980-FC1C15ADAA8F}" />
+				<Child Name="textboxSetChipEpg" Owner="{D7F26B6A-6FFF-4FBA-9DD4-A45D9FCED377}" />
+				<Child Name="textboxOsLnx" Owner="{4A0685C6-5F08-466C-BFCD-F82BA83D2524}" />
+				<Child Name="textboxBootloaderBtl" Owner="{7FB7D788-24BE-421B-8A8F-39120A7D4081}" />
 			</Child>
 		</Child>
 		<Child Name="SnippingTool" Owner="{849F84DF-7D21-4077-87D7-F340283377F8}">

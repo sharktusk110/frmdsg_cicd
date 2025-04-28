@@ -1,5 +1,5 @@
 ﻿import ReadExcel
 
 def chk():
-    glk=ReadExcel.ReadAccountDataFromExcel("C:\\Users\\SA118193\\Desktop\\AccountSheet.xlsx")
-    Log.Message("Row: " + glk);
+    glk=ReadExcel.ReadConfigDataFromExcel("C:\\Users\\SA118193\\Desktop\\AccountSheet2.xlsx",2)
+    Log.Message("Row: " + glk[0] +" "+glk[5]);

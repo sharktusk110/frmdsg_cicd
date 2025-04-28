@@ -7,6 +7,7 @@
 			</folder>
 			<folder name="CP">
 				<child name="OrderCreation" key="{33DD1065-5865-4AE7-9057-E36CF55E4304}" path="OrderCreation.py" />
+				<child name="Order_Configuration" key="{43B5D712-7C1B-4073-AC93-B4226E83010F}" path="Order_Configuration.py" />
 			</folder>
 		</folder>
 		<folder name="Test">
@@ -15,12 +16,14 @@
 			</folder>
 			<folder name="CP_Test">
 				<child name="Order_Creation_Test" key="{F39E5592-7DAB-4D7B-B93D-75A9EC1CA99A}" path="Order_Creation_Test.py" />
+				<child name="Order_Configuration_Test" key="{2E81C073-6070-4B92-B3BA-B9B54F0680B0}" path="Order_Configuration_Test.py" />
 			</folder>
 		</folder>
 		<folder name="CommonUtility">
 			<folder name="ReadExcel">
 				<child name="ReadExcel" key="{8B951F44-38ED-4061-8451-2C7C763F5EDE}" path="ReadExcel.py" />
-				<child name="JunkUtility" key="{DDB1E78B-3305-4E70-9FB4-F7F22E508EDB}" path="JunkUtility.py" />
+				<child name="JunkUtility_Ignore_" key="{DDB1E78B-3305-4E70-9FB4-F7F22E508EDB}" path="JunkUtility_Ignore_.py" />
+				<child name="Junk2_Ignore_" key="{B711B9E6-22AE-4C73-9EC7-917806337796}" path="Junk2_Ignore_.py" />
 			</folder>
 			<folder name="Reporting">
 				<child name="Report_Formatting" key="{F0BFC4B5-6097-43C1-A065-574415EF8531}" path="Report_Formatting.py" />

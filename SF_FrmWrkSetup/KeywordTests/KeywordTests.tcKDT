@@ -9,6 +9,7 @@
 			</folder>
 			<folder name="CP">
 				<child name="Order_Creation" key="{FFEE7FFB-B84F-4E44-AC7F-C021DBCE8350}" path="Order_Creation.tcKDTest" />
+				<child name="Order_Configuration" key="{B8EA66DA-4117-4125-BB30-78CAA27D251C}" path="Order_Configuration.tcKDTest" />
 			</folder>
 		</folder>
 		<folder name="Tests">
