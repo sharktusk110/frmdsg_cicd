@@ -8,37 +8,44 @@
     nav.formSalesOrder.buttonSalestable22Econconfigure.ClickButton()
     #Clicks the 'buttonConfigureinnewwindowbutton' button.
     nav.buttonConfigureinnewwindowbutton.ClickButton()
-    Delay(20000);
+    #putting wait inorder to handle application slowness
+    Delay(30000);
     #Clicks the 'textnodeConfiguration1' control.
     configpg.textnodeOrderConfigurator.textnodeOrderConfigurator2.linkConfiguration1.textnodeConfiguration1.Click()
-    #Clicks the 'linkShowAll' link.
+    #putting wait inorder to handle application slowness
     Delay(5000);
     #entering type details
-    Log.Message("Row: " + config[0] +" "+config[5]);
-    configpg.textboxType.SetText(config[0]) #Setchip
+    configpg.textboxType.SetText(config[0])
     configpg.textboxType.Keys("[Enter]")
+    #putting wait inorder to handle application slowness
     Delay(5000);
     #entering game classification details
-    configpg.textboxGamingClassification.SetText(config[1]) #Class III
+    configpg.textboxGamingClassification.SetText(config[1])
     configpg.textboxGamingClassification.Keys("[Enter]")
+    #putting wait inorder to handle application slowness
     Delay(5000);
     #entering platform specific details
-    configpg.textboxPlatformPfm.SetText(config[2]) #MK6
+    configpg.textboxPlatformPfm.SetText(config[2])
+    #putting wait inorder to handle application slowness
     Delay(2000);
     configpg.textboxPlatformPfm.Keys("[Enter]")
+    #putting wait inorder to handle application slowness
     Delay(5000);
     #entering setchip related details
-    configpg.textboxSetChipEpg.SetText(config[3]) #SET CHIP 7.02.40-G8
+    configpg.textboxSetChipEpg.SetText(config[3])
+    #putting wait inorder to handle application slowness
     Delay(2000);
     configpg.textboxSetChipEpg.Keys("[Enter]")
+    #putting wait inorder to handle application slowness
     Delay(5000);
     #entering os related details
-    configpg.textboxOsLnx.SetText(config[4]) #LNX X.42.1-G8
+    configpg.textboxOsLnx.SetText(config[4])
     Delay(2000);
     configpg.textboxOsLnx.Keys("[Enter]")
+    #putting wait inorder to handle application slowness
     Delay(5000);
     #entering bootloader related details
-    configpg.textboxBootloaderBtl.SetText(config[5]) #BOOTLOADER 4.7 GEN 7 AND VERVE
+    configpg.textboxBootloaderBtl.SetText(config[5])
     Delay(2000);
     configpg.textboxBootloaderBtl.Keys("[Enter]")
     #Clicks the 'textnodeOrderConfigurator3' control.

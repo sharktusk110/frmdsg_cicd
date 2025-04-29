@@ -21,7 +21,7 @@
 	<Node name="root">
 		<Node name="data">
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
-				<Prp name="default project" type="S" value="{E022CB57-7B79-447D-9AC6-EAFD45A5849D}"/>
+				<Prp name="default project" type="S" value="{47A40A3E-284A-4252-A8A1-DF702D8FCED6}"/>
 			</Node>
 			<Node name="{47a40a3e-284a-4252-a8a1-df702d8fced6}">
 				<Prp name="relpath" type="S" value="SF_FrmWrkSetup\SF_FrmWrkSetup.mds.tcLS"/>

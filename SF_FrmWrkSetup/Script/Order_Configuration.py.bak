@@ -8,7 +8,7 @@
     nav.formSalesOrder.buttonSalestable22Econconfigure.ClickButton()
     #Clicks the 'buttonConfigureinnewwindowbutton' button.
     nav.buttonConfigureinnewwindowbutton.ClickButton()
-    Delay(10000);
+    Delay(20000);
     #Clicks the 'textnodeConfiguration1' control.
     configpg.textnodeOrderConfigurator.textnodeOrderConfigurator2.linkConfiguration1.textnodeConfiguration1.Click()
     #Clicks the 'linkShowAll' link.
