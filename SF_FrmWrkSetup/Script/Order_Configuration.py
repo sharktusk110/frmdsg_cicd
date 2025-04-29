@@ -16,6 +16,7 @@
     Delay(5000);
     #entering type details
     configpg.textboxType.SetText(config[0])
+    configpg.textboxType.SetText(config[0]
     configpg.textboxType.Keys("[Enter]")
     #putting wait inorder to handle application slowness
     Delay(5000);
