@@ -1,8 +1,0 @@
-﻿
-function test() {
-  
-  Aliases.browser.WaitPage()
-  
-  #pageWebOrdersLogin.
-
-}
